@@ -39,3 +39,16 @@ python3 -c "import json; qs=json.load(open('Questions.json'))['questions']; prin
 ```
 
 App 端下載後也會先完整解析驗證,失敗會丟棄不落地,但仍建議 push 前自檢。
+
+## 題目附圖
+
+86 題內嵌 base64 PNG 附圖(`imageData` 欄位),由 `tools/fig_all.py` 產生
+(matplotlib;需 `pip3 install matplotlib`)。修圖流程:
+
+```
+python3 tools/fig_all.py <題號>        # 重新產生單張到 figs/
+# 再用 base64 塞回 Questions.json 的該題 imageData,version +1 後 push
+```
+
+新增附圖:在 fig_all.py 加一個 @fig(<題號>) 函式(參考現有模板:
+parallel_cut / chord_dist / rt_tri / pie_fig / wave_pair …)。
