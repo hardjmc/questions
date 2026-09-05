@@ -23,12 +23,12 @@
    "stem": "「爿」、「片」二字形近，下列關於兩者的說明，何者正確？",
    "options": [
     "「爿」與「片」讀音相同，均讀ㄆㄧㄢˋ",
-    "「爿」讀ㄔㄨㄤˊ，「片」讀ㄆㄧㄢˋ，兩字形近但音義不同",
+    "「爿」讀ㄆㄢˊ，「片」讀ㄆㄧㄢˋ，兩字形近但音義不同",
     "「爿」是「片」的異體字，意義完全相同",
-    "「爿」讀ㄆㄢˊ，「片」讀ㄆㄧㄢˋ，兩字可以互換使用"
+    "「爿」與「片」是同一個字的不同寫法，可以互換使用"
    ],
    "answerIndex": 1,
-   "explanation": "爿讀ㄔㄨㄤˊ（亦讀ㄆㄢˊ為地名等），片讀ㄆㄧㄢˋ，兩字形近音義不同，選(二)正確。"
+   "explanation": "依教育部辭典，「爿」讀ㄆㄢˊ（俗稱「床字旁」），「片」讀ㄆㄧㄢˋ。兩字字形左右相反、形近，但讀音與意義皆不同，不可互換。"
   },
   {
    "id": 10003,
@@ -155,7 +155,7 @@
    "subject": "國文",
    "grade": 7,
    "unit": "字音、字形與部首",
-   "stem": "下列各組「同音字」中，哪一組的字義辨析完全正確？",
+   "stem": "下列各組「形近字」中，哪一組的字義辨析完全正確？",
    "options": [
     "「戊」（第五天干）、「戍」（駐守邊疆）、「戌」（地支第十一位），三字均讀ㄒㄩ",
     "「戊」讀ㄨˋ，「戍」讀ㄕㄨˋ，「戌」讀ㄒㄩ，三字形近音異",
@@ -163,7 +163,7 @@
     "「戊」讀ㄨˋ，「戍」讀ㄕㄨˋ，「戌」讀ㄒㄩ，三字字形相同"
    ],
    "answerIndex": 1,
-   "explanation": "戊ㄨˋ、戍ㄕㄨˋ、戌ㄒㄩ，三字形近音義各異，選(二)正確。標題雖稱同音字但選項辨析其為形近字。"
+   "explanation": "戊讀ㄨˋ、戍讀ㄕㄨˋ、戌讀ㄒㄩ，三字字形相近但讀音、意義各不相同（口訣：橫戌點戍戊中空）。"
   },
   {
    "id": 10012,
@@ -320,7 +320,7 @@
    "subject": "國文",
    "grade": 7,
    "unit": "詞語與量詞運用",
-   "stem": "「一____夢」的空格中，應填入哪個量詞？",
+   "stem": "若要表現「如夢一場」的文學意境，「一____夢」的空格中最適合填入哪個量詞？",
    "options": [
     "個",
     "場",
@@ -399,11 +399,11 @@
    "options": [
     "她唱了一首歌。",
     "他寫了一篇作文。",
-    "桌上有一條麵包。",
+    "桌上有一張麵包。",
     "老師出了一道題目。"
    ],
    "answerIndex": 2,
-   "explanation": "麵包的量詞應為「個」或「塊」，而非「條」。「條」多用於細長形物品，如麵條、魚、繩子等，麵包形狀不符合「條」的特徵。"
+   "explanation": "「張」用於平面的物品（紙、桌子、椅子），不能用於麵包；麵包可用「個」「塊」，長條形麵包亦可用「條」。其餘選項「一首歌」「一篇作文」「一道題目」均正確。"
   },
   {
    "id": 10028,
@@ -515,7 +515,7 @@
    "subject": "國文",
    "grade": 7,
    "unit": "標點符號",
-   "stem": "「他問我：『你吃飯了嗎？』」這個句子使用的引號是哪一種？",
+   "stem": "某篇文章中有這樣一句（最外層的引號也是句子的一部分）：「他問我：『你吃飯了嗎？』」這個句子使用引號的方式為何？",
    "options": [
     "單引號",
     "雙引號",
@@ -788,12 +788,12 @@
    "stem": "下列句子中，標點符號使用有誤的是哪一項？",
    "options": [
     "他既聰明，又努力，所以成績很好。",
-    "春天到了；花開了；鳥兒唱歌了。",
-    "我的夢想是：成為一名醫生。",
+    "他喜歡打球；游泳和爬山。",
+    "他說：「我明天會到。」",
     "她唱歌、跳舞，樣樣都行。"
    ],
    "answerIndex": 1,
-   "explanation": "選項乙中三個分句是連串的短句，分句關係緊密，用逗號即可，不需要分號；分號通常用於較長的並列分句之間。"
+   "explanation": "並列的「詞語」（打球、游泳、爬山）之間應用頓號分隔，不可用分號；分號用於分隔複句中並列的「分句」。其餘選項標點皆正確。"
   },
   {
    "id": 10054,
@@ -1897,13 +1897,13 @@
    "unit": "修辭(譬喻、擬人、誇飾等)",
    "stem": "下列哪一個選項「沒有」使用擬人修辭法？",
    "options": [
-    "春風得意馬蹄疾，一日看盡長安花。",
-    "紅豆生南國，春來發幾枝，願君多採擷，此物最相思。",
+    "好雨知時節，當春乃發生。",
+    "舉杯邀明月，對影成三人。",
     "感時花濺淚，恨別鳥驚心。",
     "月上柳梢頭，人約黃昏後。"
    ],
    "answerIndex": 3,
-   "explanation": "「月上柳梢頭，人約黃昏後」純粹描寫景色與人事，並未賦予事物人的情感或行為。其餘選項中，「春風得意」、「花濺淚」、「鳥驚心」皆為擬人。"
+   "explanation": "「月上柳梢頭，人約黃昏後」純為寫景敘事，未賦予事物人的情感或行為。其餘：「好雨『知』時節」使雨能知曉時節、「舉杯『邀』明月」把月亮當作可邀請的友人、「花『濺淚』、鳥『驚心』」使花鳥有人的情感，皆為擬人。"
   },
   {
    "id": 10128,
@@ -2078,12 +2078,12 @@
    "stem": "老師在課堂上說：「譬喻三要素缺一不可。」下列哪一選項關於「明喻、隱喻、借喻」三者的比較，最為正確？",
    "options": [
     "明喻有本體無喻詞，隱喻有喻詞無本體，借喻三者皆有",
-    "明喻三者皆有，隱喻無喻詞，借喻只有喻體",
-    "明喻有喻詞如「像」，隱喻有喻詞如「是」，借喻三者皆有",
+    "明喻三者皆有；隱喻以「是、成為」代替「像」作喻詞；借喻只保留喻體",
+    "明喻有喻詞如「像」，隱喻完全沒有任何喻詞，借喻三者皆有",
     "明喻、隱喻、借喻三者都必須有喻詞才能成立"
    ],
    "answerIndex": 1,
-   "explanation": "明喻：本體＋喻詞（像、如、似）＋喻體，三者俱全；隱喻：本體＋喻體，以「是、成、變成」等連結，無明顯喻詞；借喻：只保留喻體，本體與喻詞均省略，讀者自行領會。"
+   "explanation": "明喻：本體＋喻詞（像、如、似）＋喻體，三者俱全；隱喻（暗喻）：仍有本體與喻體，但以「是、為、成為」代替「像」類喻詞；借喻：本體與喻詞均省略，只保留喻體，讓讀者自行領會。"
   },
   {
    "id": 10140,
@@ -2155,10 +2155,10 @@
     "乃不知有漢，無論魏晉。",
     "蒙乃始就學。",
     "王師北定中原日，家祭無忘告乃翁。",
-    "乃悟前狼假寐。"
+    "當立者乃公子扶蘇。"
    ],
    "answerIndex": 1,
-   "explanation": "「蒙乃始就學」意為「呂蒙於是才開始學習」，「乃」表示順承結果。選項一「乃」表示「竟然」，選項三「乃」為代詞「你的」，選項四「乃」表示「才」（帶有恍然之意）。"
+   "explanation": "「蒙乃始就學」意為「呂蒙於是（就）開始求學」，「乃」表順承。A「乃不知有漢」的「乃」是「竟然」；C「告乃翁」的「乃」是代詞「你的」；D「當立者乃公子扶蘇」的「乃」是判斷詞「是」。"
   },
   {
    "id": 10145,
@@ -2213,12 +2213,12 @@
    "stem": "下列句中「者」字的用法，哪一項與其他三項不同？",
    "options": [
     "仁者愛人。",
-    "陳勝者，陽城人也。",
+    "知之者不如好之者。",
     "水陸草木之花，可愛者甚蕃。",
     "今者項莊拔劍舞，其意常在沛公也。"
    ],
    "answerIndex": 3,
-   "explanation": "選項四「今者」中「者」附在時間詞後，為語氣助詞，無實義。其餘選項「者」均用於指人或事物，作為代詞（......的人/......的事物）。"
+   "explanation": "D「今者」的「者」附在時間詞之後，是無實義的語氣助詞。其餘三項的「者」均為代詞：「仁者」＝仁德的人、「知之者／好之者」＝了解／喜好它的人、「可愛者」＝可愛的（花）。"
   },
   {
    "id": 10149,
@@ -2334,11 +2334,11 @@
    "options": [
     "問女何所思，問女何所憶。",
     "此所謂戰勝於朝廷。",
-    "所以動心忍性，曾益其所不能。",
+    "不以物喜，不以己悲。",
     "吾視其轍亂，望其旗靡，故逐之。"
    ],
    "answerIndex": 0,
-   "explanation": "「何所思」即「所思者為何」，「所思」為「所字結構」，「所」加動詞「思」，表示思念的對象。選項二「所謂」為固定用語，選項三「所以」為連詞，選項四無「所」字結構。"
+   "explanation": "「何所思」即「所思念的對象是什麼」，「所」＋動詞「思」構成所字結構。B「所謂」是固定用語；C 句無「所」字結構；D 句亦無「所」字。"
   },
   {
    "id": 10157,
@@ -2690,7 +2690,7 @@
    "subject": "國文",
    "grade": 8,
    "unit": "古典詩詞欣賞",
-   "stem": "「問君能有幾多愁，恰似一江春水向東流」這句詞運用了哪種修辭？",
+   "stem": "「問君能有幾多愁，恰似一江春水向東流」中，「恰似一江春水向東流」一句運用了哪種修辭？",
    "options": [
     "對偶",
     "排比",
@@ -2825,7 +2825,7 @@
    "subject": "國文",
    "grade": 8,
    "unit": "說明文閱讀理解",
-   "stem": "「為了讓讀者更容易理解颱風的強度，記者寫道：『中度颱風的風速大約相當於每小時100公里的高鐵速度。』」這句話運用了什麼說明方法？",
+   "stem": "「為了讓讀者更容易理解颱風的強度，記者寫道：『中度颱風的風速，比高速公路小客車的最高速限（每小時110公里）還要快。』」這句話運用了什麼說明方法？",
    "options": [
     "下定義",
     "舉例說明",
@@ -2833,7 +2833,7 @@
     "數據說明"
    ],
    "answerIndex": 2,
-   "explanation": "文中將颱風風速與讀者熟悉的「高鐵速度」相互對照，透過已知事物來理解未知事物的大小或程度，這種說明方法稱為「比較說明」。"
+   "explanation": "文中將颱風風速與讀者熟悉的「高速公路速限」相互對照，透過已知事物來理解未知事物的程度，這種說明方法稱為「比較說明」。"
   },
   {
    "id": 10190,
@@ -4120,7 +4120,7 @@
     "稱對方的父親為「令堂」",
     "稱對方的母親為「令尊」",
     "稱對方的兒子為「令郎」",
-    "稱對方的女兒為「令嬡」"
+    "稱「自己的」女兒為「令嬡」"
    ],
    "answerIndex": 2,
    "explanation": "「令郎」是尊稱對方的兒子；「令尊」指對方的父親；「令堂」指對方的母親；對方的女兒應稱「令嬡（愛）」。原選項D「令郎」與C重複，已修正為正確的尊稱「令嬡」以避免兩個相同選項。"
@@ -4685,15 +4685,15 @@
    "subject": "國文",
    "grade": 7,
    "unit": "字音、字形與部首",
-   "stem": "下列「　」內的字，讀音與「剝削」的「削」相同的是哪一個？",
+   "stem": "「剝削」的「削」讀ㄒㄩㄝˋ。下列「　」內的「削」，讀音與其他三者「不同」的是哪一個？",
    "options": [
     "他用小刀「削」鉛筆",
     "這條「削」壁高聳入雲",
     "「削」減預算需要審慎評估",
     "他身材「削」瘦，一看就知道最近壓力很大"
    ],
-   "answerIndex": 2,
-   "explanation": "「剝削」的「削」讀ㄒㄩㄝˋ。「削減」的「削」同讀ㄒㄩㄝˋ；「削鉛筆」讀ㄒㄧㄠ。答案為削減。"
+   "answerIndex": 0,
+   "explanation": "「剝削」「削壁」「削減」「瘦削」的「削」皆讀ㄒㄩㄝˋ（文讀）；單用作動詞的「削鉛筆」「削皮」則讀ㄒㄧㄠ（白讀），故「削鉛筆」與其他三者不同。"
   },
   {
    "id": 10314,
@@ -4745,15 +4745,15 @@
    "subject": "國文",
    "grade": 7,
    "unit": "字音、字形與部首",
-   "stem": "下列各組「同音字」中，哪一組的兩個字「意義差異最大」，且最容易在寫作中混用出錯？",
+   "stem": "下列文句，用字何者「有誤」？",
    "options": [
-    "「已」經／「以」為",
-    "「在」乎／「再」見",
-    "「帶」領／「戴」帽子",
-    "「做」事／「作」業"
+    "他「已」經完成作業了。",
+    "明天「再」見。",
+    "他「帶」著帽子出門。",
+    "這份「作」業寫得很工整。"
    ],
    "answerIndex": 2,
-   "explanation": "「帶」與「戴」同音（ㄉㄞˋ）但意義差異明顯：帶為攜帶、引導，戴為戴於頭臉之物，學生最常在「帶帽子」與「戴帽子」間混淆，正確應用「戴」。各組皆同音，僅意義差異與易混程度比較，帶/戴最甚。"
+   "explanation": "「帶」是攜帶、引領；「戴」是把物品加在頭、臉、身上。帽子戴在頭上，應寫「戴著帽子」，故 C 有誤。其餘「已經」「再見」「作業」用字皆正確。"
   },
   {
    "id": 10318,
@@ -5035,7 +5035,7 @@
     "飛機用「艘」，輪船用「架」",
     "詩歌用「篇」，新聞用「則」",
     "牛用「條」，馬用「匹」",
-    "山用「座」，島用「個」只能用「個」"
+    "山用「座」，島只能用「個」"
    ],
    "answerIndex": 1,
    "explanation": "詩歌、文章用「篇」（一篇詩歌），新聞、故事用「則」（一則新聞），辨析正確。飛機應用「架」，輪船應用「艘」，選項A相反；牛應用「頭」，馬用「匹」，選項C的「牛用條」錯誤；島嶼可用「座」或「個」，並非只能用「個」，選項D說法不完整。"
@@ -5168,12 +5168,12 @@
    "stem": "下列哪一句話中，問號的使用是錯誤的？",
    "options": [
     "你知不知道他去哪裡了？",
-    "我想問問你明天有沒有空？",
-    "他問我今天幾號。",
+    "明天要不要一起去圖書館？",
+    "他問我今天幾號？",
     "什麼？你說你沒去？"
    ],
    "answerIndex": 2,
-   "explanation": "選項丙「他問我今天幾號」是間接問句（由「他問」帶出），整句話本身是陳述句，句尾應用句號，不用問號；題目問「使用錯誤」者，但丙句末已正確用句號，無誤。實則甲、乙皆為直接問句用問號正確，唯丙本身已正確，題幹邏輯有瑕疵。"
+   "explanation": "「他問我今天幾號」是間接問句，整句話本身是陳述句，句末應用句號；加問號是常見誤用，故 C 錯誤。A、B、D 皆為直接問句或疑問語氣，使用問號正確。"
   },
   {
    "id": 10346,
@@ -5195,15 +5195,15 @@
    "subject": "國文",
    "grade": 7,
    "unit": "標點符號",
-   "stem": "閱讀下列句子：「台北——高雄的高鐵票價約需一千元。」破折號在此句中表示什麼？",
+   "stem": "閱讀下列句子：「他終於明白了——原來大家早就為他準備了驚喜。」破折號在此句中表示什麼？",
    "options": [
     "語氣中斷",
     "補充說明",
     "起訖範圍（從台北到高雄）",
     "聲音延長"
    ],
-   "answerIndex": 2,
-   "explanation": "破折號用於表示時間、地點、空間的起訖範圍時，相當於「從……到……」的意思。此處「台北——高雄」即表示從台北到高雄的路段範圍。"
+   "answerIndex": 1,
+   "explanation": "破折號在此引出對上文的解釋說明（說明「明白了」的內容）。注意：表示時空「起訖範圍」（如「台北—高雄」）依教育部規範應使用「連接號」，並非破折號的功能。"
   },
   {
    "id": 10348,
@@ -5377,13 +5377,13 @@
    "unit": "句型與語法",
    "stem": "下列哪一個句子的「使」字用法與其他三項不同？",
    "options": [
-    "他使出全力，終於搬動了大石頭。",
+    "這場大雨使比賽延期了。",
     "老師使學生明白了這道題的解法。",
     "這件事使我非常難過。",
     "她使性子，不願意配合大家。"
    ],
    "answerIndex": 3,
-   "explanation": "前三項中，選項B「老師使學生明白」、選項C「這件事使我難過」的「使」是使役動詞（讓、使得）。選項A「使出全力」的「使」是「施展、發揮」之義，而選項D「使性子」也是「施展、耍弄」之義。題目原意是B、C為使役用法，A、D為動詞用法，因此須謹慎。但本題答案設定為D，因A、B、C皆可視為「致使」結構（A帶有施力使石頭移動之意），而D「使性子」為固定詞組耍脾氣，與其他三者語法用法不同。"
+   "explanation": "A「大雨使比賽延期」、B「老師使學生明白」、C「這件事使我難過」的「使」都是使役動詞（讓、使得）；D「使性子」的「使」是「施展、耍弄」之意，與其他三項不同。"
   },
   {
    "id": 10360,
@@ -5502,8 +5502,8 @@
     "部分否定",
     "反問否定"
    ],
-   "answerIndex": 2,
-   "explanation": "這個句子使用「不是……而是……」的句型，否定的是「不好看」這個判斷，並用「而是」引出真正的原因「太難了」。這屬於部分否定，否定句子的一部分，而非雙重否定。"
+   "answerIndex": 1,
+   "explanation": "「不是不好看」是雙重否定——否定「不好看」，等於肯定「好看」，語氣較委婉；後面再用「而是」點出真正的原因「太難了」。雙重否定表達肯定意思，故選 B。"
   },
   {
    "id": 10368,
@@ -6155,7 +6155,7 @@
    "subject": "國文",
    "grade": 8,
    "unit": "成語與諺語",
-   "stem": "班上辯論賽，正方論點條理清晰、字字珠璣，反方卻語無倫次、辭不達意。下列哪個成語最能形容反方的表現？",
+   "stem": "班上辯論賽，正方論點條理清晰、字字珠璣，反方卻語無倫次、結結巴巴。下列哪個成語最能形容反方的表現？",
    "options": [
     "辭不達意",
     "語焉不詳",
@@ -6485,15 +6485,15 @@
    "subject": "國文",
    "grade": 8,
    "unit": "文言文基礎(虛詞與句讀)",
-   "stem": "閱讀下列語段，判斷「之」字用法與其他三項不同的是哪一選項？\n甲、「學而時習之」\n乙、「君子之學也，以美其身」\n丙、「默而識之」\n丁、「溫故而知新，可以為師矣」——（以上均出自《論語》相關語段）",
+   "stem": "閱讀下列語段，判斷「之」字用法與其他三項不同的是哪一選項？\n甲、「學而時習之」\n乙、「君子之學也，以美其身」\n丙、「默而識之」\n丁、「擇其善者而從之」——（以上均出自《論語》相關語段）",
    "options": [
     "甲「學而時習之」",
     "乙「君子之學也」",
     "丙「默而識之」",
-    "甲、丙兩項用法相同，乙項不同"
+    "丁「擇其善者而從之」"
    ],
    "answerIndex": 1,
-   "explanation": "甲、丙兩句中的「之」均為代詞，代指前文所學的事物；乙句中的「君子之學也」，「之」置於主謂之間，用來取消句子獨立性，為結構助詞，用法不同。選項乙正確。"
+   "explanation": "乙「君子之學也」的「之」置於主謂之間，取消句子獨立性，為結構助詞；甲「習之」、丙「識之」、丁「從之」的「之」皆為代詞，代指前述的事物或對象，故乙與其他三項不同。"
   },
   {
    "id": 10434,
@@ -6608,12 +6608,12 @@
    "stem": "「雖」字在文言文中有「雖然」與「即使」兩種用法。下列何句中的「雖」作「即使（假設）」解？",
    "options": [
     "「雖有嘉肴，弗食，不知其旨也」（《禮記・學記》）",
-    "「雖我之死，有子存焉」（《愚公移山》）",
+    "「回雖不敏，請事斯語矣」（《論語・顏淵》）",
     "「故余雖愚，卒獲有所聞」（《送東陽馬生序》）",
     "「小大之獄，雖不能察，必以情」（《曹劌論戰》）"
    ],
    "answerIndex": 0,
-   "explanation": "「雖有嘉肴，弗食」為假設語氣，意為「即使有美味的食物，不去吃」，「雖」作「即使」解；丙、丁兩項的「雖」均作「雖然」（表既有事實之轉折）。乙項「雖我之死」雖亦可作「即使」，但甲項為《學記》典型用例，且全句屬純假設語氣，最為標準典型，故選甲。"
+   "explanation": "「雖有嘉肴，弗食，不知其旨也」為假設語氣：「即使有美味佳肴，不吃就不知其美味」，「雖」作「即使」解。B「回雖不敏」（我雖然不聰敏）、C「余雖愚」、D「雖不能察」的「雖」皆對既成事實作轉折，作「雖然」解。"
   },
   {
    "id": 10442,
@@ -6952,7 +6952,7 @@
    "unit": "古典詩詞欣賞",
    "stem": "「明月別枝驚鵲，清風半夜鳴蟬。稻花香裡說豐年，聽取蛙聲一片。」這首詞描繪的是什麼場景及情感？",
    "options": [
-    "秋夜田野的豐收景象，透過聲音與香氣呈現農村生活的恬靜喜悅",
+    "夏夜田野的豐收景象，透過聲音與香氣呈現農村生活的恬靜喜悅",
     "春日清晨的田園風光，詩人悠閒賞花聽鳥的心境",
     "夏夜戰場的緊張氣氛，以自然景物烘托士兵的思鄉之情",
     "冬夜雪後的蕭瑟景色，表達詩人懷才不遇的落寞"
@@ -6980,15 +6980,15 @@
    "subject": "國文",
    "grade": 8,
    "unit": "古典詩詞欣賞",
-   "stem": "「停車坐愛楓林晚，霜葉紅於二月花」中，「坐」字的意思是什麼？若以此字造一個現代語境的句子，下列哪一句中的「坐」字用法最接近？",
+   "stem": "「停車坐愛楓林晚，霜葉紅於二月花」中，「坐」字的意思是什麼？",
    "options": [
-    "他坐在椅子上看書（坐下的動作）",
-    "因為下雨坐困家中，出不了門（因為、由於）",
-    "他坐擁千頃良田，生活富足（坐享其成）",
-    "公車坐過站，只好走路回家（乘坐交通工具）"
+    "坐下休息",
+    "因為、由於",
+    "坐擁、佔有",
+    "乘坐"
    ],
    "answerIndex": 1,
-   "explanation": "詩中「坐」作「因為、由於」解，意為「因為喜愛傍晚的楓林美景而停下車來」。選項B「因為下雨坐困家中」的「坐」同樣表示「因為」的緣故，用法最為接近。"
+   "explanation": "詩中「坐」作「因為、由於」解：因為喜愛傍晚的楓林美景，所以停下車來欣賞。古詩「但坐觀羅敷」的「坐」也是同樣用法。"
   },
   {
    "id": 10467,
@@ -8182,13 +8182,13 @@
    "unit": "應用文(書信、題辭)",
    "stem": "下列題辭，最適合贈送給「新居落成」的是哪一項？",
    "options": [
-    "蓬蓽生輝",
+    "美輪美奐",
     "大展鴻圖",
     "日新又新",
     "高軒駐節"
    ],
    "answerIndex": 0,
-   "explanation": "「蓬蓽生輝」原為謙稱自家簡陋因貴客或喜事而增光，引申為新居落成的賀詞；「大展鴻圖」用於開業，「日新又新」多用於勉勵或開幕，「高軒駐節」用於官員蒞臨，語境均不符。"
+   "explanation": "「美輪美奐」語出《禮記》，形容建築高大華美，是祝賀新居落成的常用題辭。「大展鴻圖」賀開業，「日新又新」為勉勵之語，「高軒駐節」賀貴賓蒞臨。注意：常見的「蓬蓽生輝」是主人自謙之辭（謙稱自宅簡陋因貴客增光），只能自用，不可用來贈賀他人。"
   },
   {
    "id": 10547,
@@ -8214,7 +8214,7 @@
    "options": [
     "兩者皆正確",
     "「家父」正確，「違和」應改為「抱恙」，因為「違和」只用於書面正式文告",
-    "「家父」正確，「違和」正確，但兩者都是書面用語，口語應說「我爸身體不舒服」",
+    "「家父」應改為「敝父」，「違和」正確",
     "「家父」應改為「令尊」，「違和」正確"
    ],
    "answerIndex": 0,
@@ -8240,7 +8240,7 @@
    "subject": "國文",
    "grade": 9,
    "unit": "應用文(書信、題辭)",
-   "stem": "某婚禮請柬上印著：「敬備喜筵，恭候　光臨」，空格處應填入哪個提稱語？",
+   "stem": "某婚禮請柬上印著：「敬備喜筵，恭候　光臨」，空格處應填入哪個稱謂？",
    "options": [
     "賢伉儷",
     "台端",
@@ -8472,8 +8472,8 @@
     "評鑑理解：對作者的寫作技巧與目的做出判斷",
     "摘要理解：用自己的話整理文章的主要內容"
    ],
-   "answerIndex": 2,
-   "explanation": "該同學的說法是分析作者「藉由……象徵……」的寫作手法與意圖，屬於對文章結構和目的的詮釋與評鑑，而非單純摘要或字面理解。"
+   "answerIndex": 1,
+   "explanation": "文章並未明說老樹象徵什麼；該同學是根據文字線索（描述老樹被砍的過程），推斷出文章未明言的象徵含意（傳統文化的消逝），屬於「推論理解」。若是對寫作技巧的優劣做出評價（如「這個象徵用得很高明」），才屬評鑑理解。"
   },
   {
    "id": 10566,
@@ -8753,12 +8753,12 @@
    "stem": "下列「　」內各字的部首，歸類完全正確的是哪一項？",
    "options": [
     "「疆」——弓部、「廳」——廣部、「釀」——酉部",
-    "「疆」——土部、「廳」——廣部、「釀」——酉部",
+    "「疆」——田部、「廳」——廣部、「釀」——酉部",
     "「疆」——弓部、「廳」——廠部、「釀」——酉部",
-    "「疆」——田部、「廳」——廣部、「釀」——皿部"
+    "「疆」——土部、「廳」——廣部、「釀」——皿部"
    ],
    "answerIndex": 1,
-   "explanation": "「疆」部首為「土」，「廳」部首為「廣」，「釀」部首為「酉」（與酒有關）。「疆」常被誤認部首為「弓」，實為「土」。"
+   "explanation": "依教育部辭典，「疆」部首為「田」（常被誤認為「弓」或「土」），「廳」部首為「广（廣）」，「釀」部首為「酉」（與酒有關）。"
   },
   {
    "id": 10585,
@@ -8917,7 +8917,7 @@
    "unit": "標點符號",
    "stem": "下列四個句子，哪一句的書名號使用正確？",
    "options": [
-    "我最近在看《哈利波特》這部電影。",
+    "我最近在看〈哈利波特〉這部電影。",
     "他訂閱了《國語日報》這份報紙。",
     "老師要我們背誦《靜夜思》這首詩。",
     "今天的《第三節課》上得很精彩。"
@@ -9178,7 +9178,7 @@
     "選擇句"
    ],
    "answerIndex": 0,
-   "explanation": "「不是……也不是……」將兩個並列的否定並排，屬於並列複句，表達兩個成分在地位上平等並列。若改成「不是你的錯，而是我的錯」則為轉折句。"
+   "explanation": "「不是……也不是……」將兩個並列的否定並排，屬於並列複句，兩個分句地位平等。「不是A，而是B」同樣是並列複句中先否定後肯定的對舉用法。"
   },
   {
    "id": 10613,
@@ -9207,8 +9207,8 @@
     "連動句",
     "條件句"
    ],
-   "answerIndex": 2,
-   "explanation": "「一邊……一邊……」表示同一主語同時進行兩個動作，屬於連動句（連動複謂句）。並列句強調兩件事並排，因果句有原因和結果，條件句有假設與結果。"
+   "answerIndex": 1,
+   "explanation": "「一邊……一邊……」是表示兩個動作同時進行的關聯詞，屬於並列複句（並列句）。連動句指同一主語的動作先後相承且不用關聯詞（如「他去圖書館借書」），與本句不同。"
   },
   {
    "id": 10615,
@@ -9328,7 +9328,7 @@
     "補敘——在敘述完畢後，補充說明人物背景"
    ],
    "answerIndex": 0,
-   "explanation": "細讀文句，敘述依時間先後推進：先寫阿嬤串花環、掛在我脖子上，再寫花香未散她便去世，事件按發生順序述說，屬順敘。倒敘須將結果置於開頭再回溯前因，本文開頭並非結果，故非倒敘。原詳解誤判前後順序，答案應為順敘。"
+   "explanation": "細讀文句，敘述依時間先後推進：先寫阿嬤串花環、掛在我脖子上，再寫花香未散她便去世，事件按發生順序述說，屬順敘。倒敘須將結果置於開頭再回溯前因，本文開頭並非結果，故非倒敘。"
   },
   {
    "id": 10623,
@@ -10030,7 +10030,7 @@
     "以殘年餘力，曾不能毀山之一毛（憑藉）",
     "咨臣以當世之事（拿、把）",
     "家貧，無從致書以觀（用來）",
-    "不以善小而不為（因為）"
+    "勿以善小而不為（因為）"
    ],
    "answerIndex": 2,
    "explanation": "「無從致書以觀」中「以」連接前後動作，表示目的：「得到書來讀」，此處「以」是連詞，表目的，相當於「用來、來」。其他選項的「以」分別是介詞（憑藉、拿、因為）。"
@@ -10685,7 +10685,7 @@
    "subject": "國文",
    "grade": 9,
    "unit": "國學常識(文體與作者)",
-   "stem": "「樂府」原指漢代掌管音樂的官署，後來「樂府」也成為一種詩體名稱。下列詩句中，哪一首屬於「樂府詩」的特徵描述，而非「近體詩（律詩／絕句）」的特徵？",
+   "stem": "「樂府」原指漢代掌管音樂的官署，後來「樂府」也成為一種詩體名稱。下列敘述中，哪一項屬於「樂府詩」的特徵，而非「近體詩（律詩／絕句）」的特徵？",
    "options": [
     "句數固定，律詩八句、絕句四句",
     "押韻嚴格，且必須一韻到底不得換韻",
@@ -12193,7 +12193,7 @@
     "（不填）"
    ],
    "answerIndex": 2,
-   "explanation": "句中的 piano 後接 is my favorite instrument，表示特指「那台鋼琴」，故用定冠詞 the。"
+   "explanation": "樂器名稱前慣用定冠詞 the：play the piano、the piano is my favorite instrument，這裡的 the 是「the + 樂器名」表示樂器類別的慣用法，並非特指某一台鋼琴。"
   },
   {
    "id": 20056,
@@ -13280,7 +13280,7 @@
    "subject": "英語",
    "grade": 8,
    "unit": "未來式 will 與 be going to",
-   "stem": "【事先計劃】Look at the dark clouds! It _____ rain soon.",
+   "stem": "【依跡象預測】Look at the dark clouds! It _____ rain soon.",
    "options": [
     "will",
     "is going to",
@@ -13955,15 +13955,15 @@
    "subject": "英語",
    "grade": 8,
    "unit": "助動詞 can/must/should",
-   "stem": "【推測－必然】根據語意選出最適合的選項。\nLook at those dark clouds. It ______ rain soon.",
+   "stem": "【推測－必然】根據語意選出最適合的選項。\nThe phone is ringing. It ______ be Dad — he said he would call at this time.",
    "options": [
     "must",
     "can",
-    "should",
+    "may not",
     "mustn't"
    ],
    "answerIndex": 0,
-   "explanation": "must 除了表示義務，也可表示強烈推測（幾乎確定），看到烏雲判斷快下雨，用 must 推測最合適。"
+   "explanation": "must + 原形動詞表示「很有把握的推測（一定是）」。爸爸說過這個時間會打來，因此推測「一定是爸爸」，用 must be。can 表能力或一般可能，may not、mustn't 語意相反。"
   },
   {
    "id": 20174,
@@ -14813,7 +14813,7 @@
    "stem": "請選出最符合對話情境的選項。\nA: Why is Tom so tired?\nB: Because he _____ all night.",
    "options": [
     "studies",
-    "studied",
+    "studying",
     "has studied",
     "had studied"
    ],
@@ -14825,7 +14825,7 @@
    "subject": "英語",
    "grade": 9,
    "unit": "被動語態",
-   "stem": "下列句子中，哪一個是正確的被動語態句子？\nThe teacher ______ the students every day.",
+   "stem": "下列何者填入空格後，句子的文法與語意皆正確？\nThe teacher ______ the students every day.",
    "options": [
     "teaches",
     "is taught by",
@@ -14833,7 +14833,7 @@
     "was taught"
    ],
    "answerIndex": 0,
-   "explanation": "題目主詞是 the teacher（老師），主動執行「教」的動作，應用主動語態 teaches。其餘選項皆為被動語態形式，語意錯誤。"
+   "explanation": "主詞 the teacher（老師）是主動執行「教」的一方，應用主動語態現在簡單式 teaches。其餘選項為被動語態，語意上變成「老師被學生教」，不合理。"
   },
   {
    "id": 20232,
@@ -15200,7 +15200,7 @@
    "subject": "英語",
    "grade": 9,
    "unit": "關係代名詞",
-   "stem": "選出正確的關係代名詞填入空格：Is this the man _____ you were talking about?",
+   "stem": "選出正確的關係代名詞填入空格：Is this the man about _____ you were talking?",
    "options": [
     "who",
     "which",
@@ -15208,7 +15208,7 @@
     "whose"
    ],
    "answerIndex": 2,
-   "explanation": "先行詞 'the man' 是人，在關係子句中作介系詞 about 的受詞，應用 whom。口語中也可用 who，但 whom 最為正確。"
+   "explanation": "介系詞（about）直接放在關係代名詞前面時，只能用 whom（指人、受格），不可用 who。about whom you were talking = 你剛才談論的（那個人）。"
   },
   {
    "id": 20257,
@@ -15280,7 +15280,7 @@
     "The man who called you is my uncle.",
     "The bag that she bought is expensive.",
     "The house whose roof is broken needs repair.",
-    "The teacher whom we respect retired last year."
+    "The teacher who taught us English retired last year."
    ],
    "answerIndex": 1,
    "explanation": "關係代名詞在關係子句中作受詞時可省略。選項B中 that 是 she bought 的受詞，可省略為 The bag she bought is expensive。選項A中 who 是主詞，不可省略。選項D的 whom 雖也作受詞可省略，但本題以B為最佳限定用法的標準答案；A、C、D中A、C為主詞或所有格不可省略。"
@@ -15320,7 +15320,7 @@
    "subject": "英語",
    "grade": 9,
    "unit": "關係代名詞",
-   "stem": "選出正確的關係代名詞填入空格：The girl _____ I gave the gift to was very pleased.",
+   "stem": "選出正確的關係代名詞填入空格：The girl to _____ I gave the gift was very pleased.",
    "options": [
     "which",
     "whose",
@@ -15328,7 +15328,7 @@
     "who"
    ],
    "answerIndex": 2,
-   "explanation": "先行詞 'the girl' 是人，在關係子句中作介系詞 to 的受詞（gave the gift to ___），應用受格 whom。雖然口語常用 who，但此題選項中 whom 最正確。"
+   "explanation": "介系詞（to）直接放在關係代名詞前面時，指人只能用受格 whom：the girl to whom I gave the gift = 我送禮物的那個女孩。"
   },
   {
    "id": 20265,
@@ -15398,7 +15398,7 @@
    "stem": "選出正確的關係代名詞填入空格：He is the first student _____ finished the test.",
    "options": [
     "which",
-    "who",
+    "whom",
     "whose",
     "that"
    ],
@@ -16445,15 +16445,15 @@
    "subject": "英語",
    "grade": 7,
    "unit": "代名詞與所有格",
-   "stem": "【變化題】「The dog hurt _____ leg.」這句話中，空格應填入什麼？（the dog 是雄性）",
+   "stem": "【變化題】「The dog hurt _____ leg.」這句話中，空格應填入什麼？",
    "options": [
     "its",
     "it's",
-    "his",
+    "it",
     "their"
    ],
    "answerIndex": 0,
-   "explanation": "動物通常使用 its（它的）作為所有格，而非 his/her，除非文章中有特別指定性別並以人格化方式描述。it's 是 it is 的縮寫，在此文法錯誤。"
+   "explanation": "空格需要所有格代名詞修飾 leg。動物一般用 its（它的）；it's 是 it is 的縮寫，it 是主格/受格，their 是複數，皆不合。"
   },
   {
    "id": 20340,
@@ -19175,7 +19175,7 @@
    "subject": "英語",
    "grade": 9,
    "unit": "現在完成式",
-   "stem": "【排列組合題】將下列字詞排列成正確句子：\"never / I / have / spicy food / eaten / so\"",
+   "stem": "【排列組合題】將下列字詞排列成正確句子：\"never / I / have / spicy food / eaten / such\"",
    "options": [
     "I never have so spicy food eaten.",
     "I have never eaten such spicy food.",
@@ -19552,7 +19552,7 @@
    "unit": "關係代名詞",
    "stem": "【辨析題】以下四句中，哪一句的關係代名詞用法「正確」？",
    "options": [
-    "She is the teacher who students respect the most.",
+    "She is the teacher what students respect the most.",
     "She is the teacher which students respect the most.",
     "She is the teacher whose students respect the most.",
     "She is the teacher whom students respect the most."
@@ -19672,7 +19672,7 @@
    "unit": "關係代名詞",
    "stem": "【情境題】英文作文中合併句子，請選出正確答案。\n原句：I know a girl. Everyone loves her.\n合併：I know a girl ______.",
    "options": [
-    "who everyone loves",
+    "who everyone loves her",
     "whom everyone loves",
     "whose everyone loves",
     "which everyone loves"
@@ -19917,8 +19917,8 @@
     "Brian remembers putting his keys on the table.",
     "Brian remembered to put his keys on the table."
    ],
-   "answerIndex": 1,
-   "explanation": "「remember + Ving」表示「記得曾經做過某事（已發生）」；此句描述過去的記憶，主句需用過去式，故答案為 remembered putting。注意 C 選項雖用 Ving 但主句用現在式，語境較不符合「曾經放過」的過去回憶。"
+   "answerIndex": 2,
+   "explanation": "「記得曾經做過某事」用 remember + V-ing；題目說的是 Brian「現在」記得，故用現在式 remembers putting。remembered putting 是「當時記得」，時態不符；remember to V 則是「記得要去做（尚未做）」。"
   },
   {
    "id": 20571,
@@ -21913,7 +21913,7 @@
     "hear / couldn't"
    ],
    "answerIndex": 1,
-   "explanation": "A 句 How did you feel 已顯示過去時態，搭配 heard（hear→heard，規則）；B 句表達過去的感受，情態動詞 can 的過去式為 couldn't。"
+   "explanation": "A 句 How did you feel 已顯示過去時態，搭配 heard（hear 的過去式為不規則變化的 heard）；B 句表達過去的感受，情態動詞 can 的過去式為 couldn't。"
   },
   {
    "id": 20704,
@@ -22535,15 +22535,15 @@
    "subject": "英語",
    "grade": 8,
    "unit": "助動詞 can/must/should",
-   "stem": "Peter: \"Look at those dark clouds. It ______ rain soon.\"\n（Peter 看到烏雲，推測快要下雨了，空格最適合？）",
+   "stem": "Peter: \"Look at those dark clouds. It ______ be going to rain.\"\n（Peter 看到滿天烏雲，很有把握地推測快要下雨了）",
    "options": [
     "must",
-    "should",
+    "might not",
     "can",
     "must not"
    ],
    "answerIndex": 0,
-   "explanation": "must 可以用來表達對現在情況的高度推測（logical deduction），「看到烏雲→幾乎確定會下雨」適合用 must。can 只表能力，should 是建議，must not 表禁止，均不符。"
+   "explanation": "must 表示有把握的推測：看到烏雲密布，推斷「一定快要下雨了」，用 It must be going to rain。can 不用於這種特定情境推測，might not 與 must not 語意相反。"
   },
   {
    "id": 20746,
@@ -22942,7 +22942,7 @@
    "unit": "現在完成式",
    "stem": "Look! Someone ______ all the cookies I made this morning.",
    "options": [
-    "ate",
+    "eat",
     "has eaten",
     "eats",
     "had eaten"
@@ -22955,7 +22955,7 @@
    "subject": "英語",
    "grade": 9,
    "unit": "現在完成式",
-   "stem": "Ken: \"Have you ever tried durian?\" Lisa: \"Yes, I ______ it once in Malaysia.\"",
+   "stem": "Ken: \"Have you ever tried durian?\" Lisa: \"Yes, I ______ it once when I visited Malaysia last year.\"",
    "options": [
     "have tried",
     "tried",
@@ -22963,14 +22963,14 @@
     "had tried"
    ],
    "answerIndex": 1,
-   "explanation": "回答 Have you ever...? 的問句時，若提供具體的過去時間（once in Malaysia 暗示特定過去經歷），應改用過去式 tried，而非現在完成式。"
+   "explanation": "回答中出現明確的過去時間 when I visited Malaysia last year，描述過去特定經驗的細節時用簡單過去式 tried，不再用現在完成式。"
   },
   {
    "id": 20774,
    "subject": "英語",
    "grade": 9,
    "unit": "現在完成式",
-   "stem": "The children ______ in the park for two hours. They are very tired now.",
+   "stem": "The children ______ in the park since two o'clock, and they are still there.",
    "options": [
     "play",
     "played",
@@ -22978,7 +22978,7 @@
     "had played"
    ],
    "answerIndex": 2,
-   "explanation": "強調動作從過去持續到現在且仍在進行（現在很累），應用現在完成進行式 have been playing；兩小時的持續狀態使此句最為自然。"
+   "explanation": "since two o'clock（從兩點起）搭配「現在還在」表示動作從過去持續到現在，用現在完成進行式 have been playing。"
   },
   {
    "id": 20775,
@@ -23015,7 +23015,7 @@
    "subject": "英語",
    "grade": 9,
    "unit": "現在完成式",
-   "stem": "Tony ______ three times, but he still can't open the box.",
+   "stem": "Tony ______ three times so far, but he still can't open the box.",
    "options": [
     "tried",
     "has tried",
@@ -23023,7 +23023,7 @@
     "will try"
    ],
    "answerIndex": 1,
-   "explanation": "three times 在此描述到目前為止嘗試的次數，且後句「still can't open」強調與現在的連結，應用現在完成式 has tried。"
+   "explanation": "so far（到目前為止）表示到現在為止的累計經驗，搭配現在完成式 has tried；後句 still can't 也顯示影響持續到現在。"
   },
   {
    "id": 20778,
@@ -23720,7 +23720,7 @@
    "subject": "英語",
    "grade": 9,
    "unit": "不定詞與動名詞",
-   "stem": "【辨析題】Tom stopped _____ when he saw his friend crying. He wanted to comfort her.",
+   "stem": "【辨析題】The teacher walked into the classroom, so the students stopped _____ at once.",
    "options": [
     "to talk",
     "talking",
@@ -23728,7 +23728,7 @@
     "for talking"
    ],
    "answerIndex": 1,
-   "explanation": "stop talking 表示「停止說話」（不再做這件事）；stop to talk 則表示「停下來去說話」。本題語境是 Tom 停下來（停止正在做的事）去安慰朋友，故選 talking。"
+   "explanation": "stop + V-ing 表示「停止正在做的事」。老師走進教室，學生們立刻停止講話，故用 stopped talking。stop + to V 則是「停下來去做另一件事」，與語意不符。"
   },
   {
    "id": 20825,
@@ -23815,10 +23815,10 @@
     "solve",
     "to solve",
     "solving",
-    "Both B and C are correct with different meanings."
+    "solved"
    ],
-   "answerIndex": 3,
-   "explanation": "try to V 表示「努力嘗試做（但未必成功）」；try V-ing 表示「試試看做某事（實驗性嘗試）」。兩者文法皆正確但語意不同，本題語境（努力嘗試卻解不出來）符合 try to solve，但選項D說兩者皆正確且語意不同，為最完整答案。"
+   "answerIndex": 1,
+   "explanation": "try + to V 表示「努力、設法去做」：Jenny 努力解題一小時仍解不出來，用 tried to solve。try + V-ing 是「試試看某方法」，與「花一小時努力」的語意不合；solve、solved 不符文法。"
   },
   {
    "id": 20831,
@@ -24548,7 +24548,7 @@
    "stem": "計算 3/7 ÷ 6/14 的結果為何？",
    "options": [
     "9/49",
-    "1/1",
+    "7/9",
     "3/4",
     "1"
    ],
@@ -25152,7 +25152,7 @@
     "10 公分",
     "11 公分"
    ],
-   "answerIndex": 2,
+   "answerIndex": 3,
    "explanation": "設寬為 x，長為 x + 4，周長公式：2 × [(x) + (x+4)] = 36，2(2x+4) = 36，2x + 4 = 18，x = 7，長 = 11。"
   },
   {
@@ -26140,7 +26140,7 @@
     "√10",
     "4",
     "2√2",
-    "√16"
+    "2√6"
    ],
    "answerIndex": 1,
    "explanation": "√2 × √8 = √(2×8) = √16 = 4。"
@@ -26260,7 +26260,7 @@
    "options": [
     "6√5",
     "30",
-    "6√25",
+    "6√10",
     "5√6"
    ],
    "answerIndex": 1,
@@ -29332,7 +29332,7 @@
    "subject": "數學",
    "grade": 7,
    "unit": "比與比例式",
-   "stem": "一杯果汁由柳橙汁與蘋果汁以 3：2 混合而成，共 500 毫升。現在想把這杯果汁改成柳橙汁與蘋果汁 1：1 的比例（總量不變），需要加入幾毫升蘋果汁並倒掉等量的混合果汁？",
+   "stem": "一杯果汁由柳橙汁與蘋果汁以 3：2 混合而成，共 500 毫升。現在想把這杯果汁改成柳橙汁與蘋果汁 1：1 的比例，需要「再加入」幾毫升蘋果汁？",
    "options": [
     "50 毫升",
     "100 毫升",
@@ -29340,7 +29340,7 @@
     "200 毫升"
    ],
    "answerIndex": 1,
-   "explanation": "原柳橙 300 毫升、蘋果 200 毫升。若只加蘋果汁，設加 x 毫升，柳橙：蘋果 = 300：(200+x) = 1：1，解得 x = 100 毫升。"
+   "explanation": "原柳橙 300 毫升、蘋果 200 毫升。設加入 x 毫升蘋果汁，柳橙：蘋果 = 300：(200+x) = 1：1，解得 x = 100 毫升（總量變為 600 毫升）。"
   },
   {
    "id": 30343,
@@ -29852,7 +29852,7 @@
     "兩人都不正確"
    ],
    "answerIndex": 3,
-   "explanation": "a²－b²＝(a＋b)(a－b)，而 (a－b)²＝a²－2ab＋b²；令兩者相等得 2ab＝0，即 a＝0 或 b＝0。小華僅說「b＝0」並不完整（漏掉 a＝0），故兩人都不正確。"
+   "explanation": "a²－b²＝(a＋b)(a－b)，而 (a－b)²＝a²－2ab＋b²；令兩者相等，移項得 2b(a－b)＝0，即 b＝0 或 a＝b。小明認為恆成立不對；小華只說 b＝0，漏掉 a＝b 也成立的情形，故兩人都不正確。"
   },
   {
    "id": 30377,
@@ -30027,7 +30027,7 @@
    "stem": "一個三角形面積為 x²－x－12（平方公尺），若底長為 (x＋3) 公尺，則高為幾公尺？",
    "options": [
     "2(x－4)",
-    "2x－8",
+    "2x－6",
     "(x－4)",
     "2(x＋4)"
    ],
@@ -30449,13 +30449,13 @@
    "unit": "統計圖表與資料分析",
    "stem": "小美統計自己連續10週的零用錢花費（元）：320、280、310、450、290、300、270、330、280、420。她想用一個數值代表「典型的每週花費」，她計算出平均數為325元、中位數為305元、眾數為280元。若這週她因為生日多花了1000元，對三個統計量的影響敘述何者正確？",
    "options": [
-    "平均數改變最大，中位數與眾數不變",
+    "平均數改變最大，眾數不變，中位數僅略微改變",
     "三個統計量都會等幅改變",
     "中位數改變最大，平均數最小",
     "眾數改變最大，其他不變"
    ],
    "answerIndex": 0,
-   "explanation": "加入極端大值1000元使平均數大幅升高，影響最顯著；中位數僅微移、眾數不變。"
+   "explanation": "加入 1000 元的極端大值後：平均數大幅上升（受極端值影響最大）；中位數由 305 元僅微幅移至 310 元；眾數維持 280 元不變。故平均數改變最大。"
   },
   {
    "id": 30417,
@@ -31112,7 +31112,7 @@
    "options": [
     "3/9",
     "3/10",
-    "1/3",
+    "2/9",
     "2/7"
    ],
    "answerIndex": 0,
@@ -31188,9 +31188,9 @@
     "5/28",
     "3/28",
     "1/7",
-    "10/56"
+    "15/56"
    ],
-   "answerIndex": 2,
+   "answerIndex": 0,
    "explanation": "最大值恰好為 6，表示 6 必在其中，且另外兩顆從 1~5 中取，有 C(5,2)=10 種；總取法 C(8,3)=56，機率為 10/56 = 5/28。"
   },
   {
@@ -32743,7 +32743,7 @@
    "subject": "數學",
    "grade": 7,
    "unit": "比與比例式",
-   "stem": "小明用 15 元買了 3 顆糖，請問糖的單價與數量之比為何？",
+   "stem": "小明用 15 元買了 3 顆糖，請問「總價」與「數量」之比為何？",
    "options": [
     "1：5",
     "5：1",
@@ -32751,7 +32751,7 @@
     "15：1"
    ],
    "answerIndex": 1,
-   "explanation": "單價為 15÷3＝5 元，單價：數量＝5：1。"
+   "explanation": "總價 15 元、數量 3 顆，總價：數量＝15：3，化簡為 5：1。"
   },
   {
    "id": 30569,
@@ -33257,7 +33257,7 @@
    "options": [
     "(a - b)²",
     "(a + b)(a - b)",
-    "(a - b)(a + b)",
+    "a(a - b)",
     "(a + b)²"
    ],
    "answerIndex": 1,
@@ -33499,7 +33499,7 @@
     "10",
     "12",
     "14",
-    "√100"
+    "√28"
    ],
    "answerIndex": 0,
    "explanation": "由畢氏定理：斜邊² = 6² + 8² = 36 + 64 = 100，故斜邊 = √100 = 10。這是常見的 6-8-10 畢氏三元數（3-4-5 的倍數）。"
@@ -33574,7 +33574,7 @@
     "15",
     "18",
     "21",
-    "√225"
+    "√63"
    ],
    "answerIndex": 0,
    "explanation": "東西向和南北向垂直，故形成直角三角形，直線距離 = √(9² + 12²) = √(81 + 144) = √225 = 15 公尺。"
@@ -33648,8 +33648,8 @@
    "options": [
     "√10",
     "4",
-    "2√4",
-    "√16"
+    "2√3",
+    "8"
    ],
    "answerIndex": 1,
    "explanation": "√2 × √8 = √(2×8) = √16 = 4。注意 √16 = 4（算術平方根取正值）。"
@@ -33661,9 +33661,9 @@
    "unit": "平方根與畢氏定理",
    "stem": "√12 ÷ √3 的值等於多少？",
    "options": [
-    "√4",
+    "√6",
     "2",
-    "√9",
+    "2√3",
     "3"
    ],
    "answerIndex": 1,
@@ -34084,7 +34084,7 @@
    "stem": "某商品原價為 x 元，降價 a 元後售出。若原價與售價的平方差為 (x² - (x-a)²)，化簡後等於什麼？",
    "options": [
     "a²",
-    "2ax - a²",
+    "a² - 2ax",
     "a(2x - a)",
     "a(2x + a)"
    ],
@@ -34744,7 +34744,7 @@
    "subject": "數學",
    "grade": 8,
    "unit": "統計圖表與資料分析",
-   "stem": "有一長條圖顯示4個城市的年均溫（℃）：\nA市：25、B市：20、C市：28、D市：22\n若要改用圓形圖表示，B市對應的圓心角為多少度？",
+   "stem": "有一長條圖顯示4個城市的年均溫（℃）：\nA市：25、B市：20、C市：28、D市：22\n若要改用圓形圖表示，B市對應的圓心角「最接近」多少度？",
    "options": [
     "60度",
     "72度",
@@ -34790,15 +34790,15 @@
    "subject": "數學",
    "grade": 8,
    "unit": "統計圖表與資料分析",
-   "stem": "下表為某市連續7天的最高氣溫（℃）：28、30、25、32、29、27、31。請問這7天氣溫的全距與平均數各為多少？",
+   "stem": "下表為某市連續7天的最高氣溫（℃）：28、30、26、32、29、27、31。請問這7天氣溫的全距與平均數各為多少？",
    "options": [
     "全距7、平均28",
     "全距7、平均29",
     "全距6、平均29",
     "全距8、平均29"
    ],
-   "answerIndex": 1,
-   "explanation": "全距 = 32 - 25 = 7；平均數 = (28+30+25+32+29+27+31) ÷ 7 = 202 ÷ 7 ≈ 28.86，最接近29；故全距7、平均29。"
+   "answerIndex": 2,
+   "explanation": "全距 = 最大值 − 最小值 = 32 − 26 = 6；平均數 = (28+30+26+32+29+27+31) ÷ 7 = 203 ÷ 7 = 29。故全距 6、平均 29。"
   },
   {
    "id": 30705,
@@ -34855,10 +34855,10 @@
     "中位數",
     "眾數",
     "全距",
-    "平均數與全距皆改變，但全距改變比平均數更顯著"
+    "平均數"
    ],
-   "answerIndex": 3,
-   "explanation": "原全距 = 22 - 10 = 12，改後全距 = 100 - 10 = 90，增加了78；原平均數 = 97/6 ≈ 16.17，改後平均數 = 175/6 ≈ 29.17，增加約13。中位數不變（第3、4個數仍為15和18）。全距改變幅度（+78）遠大於平均數改變（+13），故全距改變最大。"
+   "answerIndex": 2,
+   "explanation": "原全距 = 22−10 = 12，改後全距 = 100−10 = 90，增加 78，是各統計量中改變最大者。平均數約增 13；中位數（第 3、4 個數的平均）不變；本組資料無眾數。故全距改變最大。"
   },
   {
    "id": 30709,
@@ -34930,7 +34930,7 @@
     "兩組對應邊成比例",
     "兩組對應角相等",
     "一組對應邊相等且一組對應角相等",
-    "三組對應邊相等"
+    "一組對應角相等"
    ],
    "answerIndex": 1,
    "explanation": "兩組對應角相等（AA相似），即可確定兩三角形相似；兩組對應邊成比例不包含夾角資訊，無法單獨確定相似。"
@@ -37119,7 +37119,7 @@
    "options": [
     "RR",
     "Rr",
-    "rR",
+    "RR 或 rr",
     "rr"
    ],
    "answerIndex": 1,
@@ -37130,7 +37130,7 @@
    "subject": "自然",
    "grade": 7,
    "unit": "生殖與遺傳",
-   "stem": "下列哪一項不是遺傳的基本單位？",
+   "stem": "下列何者與遺傳訊息的儲存或傳遞「沒有直接關係」？",
    "options": [
     "基因",
     "染色體",
@@ -37793,7 +37793,7 @@
    "stem": "下列敘述何者正確？",
    "options": [
     "所有化合物加熱後均可分解為元素",
-    "化合物一定由不同原子組成",
+    "化合物可以用過濾等物理方法分離成元素",
     "元素由相同種類的原子組成",
     "混合物無法用物理方法分離"
    ],
@@ -38093,12 +38093,12 @@
    "stem": "下列哪一種做法能最有效地減少熱對流造成的熱量散失？",
    "options": [
     "在牆壁表面塗上深色油漆",
-    "將熱湯裝入保溫瓶（內部抽成真空）",
+    "將熱湯倒入內壁鍍銀的容器中",
     "在窗戶內側貼反射膜",
     "在熱湯上方覆蓋密封蓋子"
    ],
    "answerIndex": 3,
-   "explanation": "在熱湯上方加蓋可阻止熱空氣與冷空氣的交換，有效減少因對流造成的熱量散失。保溫瓶主要減少輻射和傳導；真空層減少傳導和對流。"
+   "explanation": "在熱湯上方加蓋可阻止熱空氣上升與冷空氣交換，最直接減少對流散熱。深色油漆與反射膜、鍍銀內壁主要影響「輻射」的吸收與反射，與對流無關。"
   },
   {
    "id": 40149,
@@ -39688,8 +39688,8 @@
     "質量 1 kg，速度 4 m/s",
     "質量 4 kg，速度 1 m/s"
    ],
-   "answerIndex": 2,
-   "explanation": "各選項動能：(1/2)×2×9=9 J；(1/2)×3×4=6 J；(1/2)×1×16=8 J；(1/2)×4×1=2 J。質量 1 kg、速度 4 m/s 的動能為 8 J 最大。"
+   "answerIndex": 0,
+   "explanation": "動能 = (1/2)mv²。各選項：A (1/2)×2×3²=9 J；B (1/2)×3×2²=6 J；C (1/2)×1×4²=8 J；D (1/2)×4×1²=2 J。以 A（質量 2 kg、速度 3 m/s）的 9 J 最大。"
   },
   {
    "id": 40255,
@@ -41078,13 +41078,13 @@
    "unit": "養分與光合作用",
    "stem": "某同學進行實驗：將水草（金魚藻）放入裝滿清水的試管，在光照下觀察到氣泡從植物體冒出。若改用沸騰冷卻後的蒸餾水（已去除溶解氣體）代替清水重複實驗，在相同光照下，試管中氣泡量的變化最可能為？",
    "options": [
-    "氣泡量不變，因為光合作用產生的氧氣足以補充",
+    "氣泡量大幅減少，因為水中缺乏溶解的二氧化碳，光合作用的原料不足",
     "氣泡量增加，因為水中無雜質阻礙氣泡形成",
     "氣泡量減少或不變，但此實驗無法驗證光合作用產生氧氣",
     "幾乎看不到氣泡，因為去除溶解氣體的水會吸收光合作用產生的氧氣"
    ],
    "answerIndex": 0,
-   "explanation": "光合作用以水為原料、光能為動力，產生氧氣和葡萄糖。煮沸後的水去除了溶解的二氧化碳，但題目情境著重於氧氣的產生；只要光照充足、二氧化碳供應尚足，光合作用仍可產生氧氣，氣泡量基本不變。選項A為最佳答案。"
+   "explanation": "光合作用需要水中溶解的二氧化碳作為原料。煮沸冷卻的蒸餾水已去除溶解氣體（含二氧化碳），水草缺乏原料，光合作用幾乎停止，氣泡量因此大幅減少。此對照實驗正說明溶解的二氧化碳是光合作用的必要條件。"
   },
   {
    "id": 40348,
@@ -42127,7 +42127,7 @@
    "subject": "自然",
    "grade": 8,
    "unit": "物質的組成與分類",
-   "stem": "下列四種物質中，哪一種在常溫常壓下是「由兩種元素構成的化合物」，且其中一種元素在常溫下為氣態單質？",
+   "stem": "下列四種物質中，哪一種在常溫常壓下是「由兩種元素構成的化合物」，且組成它的「兩種」元素在常溫下皆為氣態單質？",
    "options": [
     "食鹽（氯化鈉）",
     "鐵鏽（氧化鐵）",
@@ -42135,7 +42135,7 @@
     "大理石（碳酸鈣）"
    ],
    "answerIndex": 2,
-   "explanation": "水由氫與氧兩種元素組成，氫與氧在常溫下皆為氣態單質（H₂、O₂），符合「由兩種元素構成且其中一種元素為氣態單質」的條件。食鹽含鈉與氯、鐵鏽含鐵與氧、大理石含鈣碳氧三種元素，其中氯在常溫雖為氣態，但食鹽的鈉為固態金屬，整體最完整符合者為水。"
+   "explanation": "水（H₂O）由氫、氧兩種元素組成，氫氣（H₂）與氧氣（O₂）在常溫下皆為氣態單質，完全符合條件。食鹽的鈉是固態金屬、鐵鏽的鐵是固態金屬、大理石含鈣碳氧三種元素，皆不符。"
   },
   {
    "id": 40418,
@@ -42607,15 +42607,15 @@
    "subject": "自然",
    "grade": 8,
    "unit": "溫度與熱",
-   "stem": "等質量的鐵、銅、鋁三種金屬，從相同高溫分別冷卻至室溫，已知三者比熱鐵 > 鋁 > 銅，則三者放出的熱量大小關係為何？",
+   "stem": "等質量的鐵、銅、鋁三種金屬，從相同高溫分別冷卻至室溫，已知三者比熱為鋁 > 鐵 > 銅，則三者放出的熱量大小關係為何？",
    "options": [
-    "鐵放熱最多，銅放熱最少",
+    "鋁放熱最多，銅放熱最少",
     "銅放熱最多，鐵放熱最少",
     "三者放熱相同，因為溫度變化相同",
     "無法判斷，需知道各自的導熱係數"
    ],
    "answerIndex": 0,
-   "explanation": "由 Q = mcΔT，質量相同、溫度變化相同，比熱越大者放熱越多。三者比熱鐵 > 鋁 > 銅，故放熱量：鐵 > 鋁 > 銅，鐵放熱最多，銅最少。"
+   "explanation": "由 Q = mcΔT，質量相同、溫度變化相同時，比熱越大者放熱越多。三者比熱鋁（0.90）> 鐵（0.45）> 銅（0.39）（J/g·K），故放熱量鋁 > 鐵 > 銅，鋁最多、銅最少。"
   },
   {
    "id": 40450,
@@ -43257,7 +43257,7 @@
    "subject": "自然",
    "grade": 8,
    "unit": "化學反應與質量守恆",
-   "stem": "下表列出四個反應，哪一個反應中「反應物總質量 ≠ 生成物總質量」的說法是錯誤的？（即下列哪個說法違反質量守恆定律？）",
+   "stem": "下列哪一個敘述「違反」質量守恆定律？",
    "options": [
     "鐵在密閉容器中生鏽，容器整體質量增加",
     "木炭在開放空間燃燒後，殘留灰燼比原木炭輕",
@@ -43550,7 +43550,7 @@
     "在最高點時，加速度為零"
    ],
    "answerIndex": 1,
-   "explanation": "拋體運動中忽略空氣阻力，水平方向無受力故水平速度不變；垂直方向受重力（約9.8 m/s²向下）持續作用，垂直速度持續改變。最高點時速度為零但重力仍存在，加速度不為零。"
+   "explanation": "拋體運動中忽略空氣阻力，水平方向不受力，水平速度不變；垂直方向受重力持續作用，垂直速度持續改變。注意：最高點時只有「垂直」速度為零，仍有水平速度；且重力仍在，加速度為 9.8 m/s² 向下，不為零。"
   },
   {
    "id": 40512,
@@ -44163,7 +44163,7 @@
    "stem": "兩條平行導線，甲通電向上、乙通電向下，則兩導線之間的作用力為何？",
    "options": [
     "互相吸引，因為電流方向相反產生異極相吸",
-    "互相排斥，因為電流方向相反，磁場方向也相反",
+    "互相吸引，因為電流方向相反，磁場方向也相反",
     "互相吸引，因為每條導線都是磁場源，同極相吸",
     "互相排斥，因為兩導線電流方向相反"
    ],
@@ -44227,8 +44227,8 @@
     "感應電流大小先增大後減小，中途方向改變一次",
     "感應電流大小持續增大，方向不變"
    ],
-   "answerIndex": 0,
-   "explanation": "此處「垂直磁場的位置」指線圈平面與磁場垂直（磁通量最大），「平行磁場的位置」指線圈平面與磁場平行（磁通量為零）。旋轉過程中磁通量單調遞減，其變化率（正比於sin角度）先增大後減小（45度處最大），故感應電流先增大後減小，且方向不改變。",
+   "answerIndex": 3,
+   "explanation": "磁通量 Φ=BAcosθ，從垂直磁場（磁通量最大）轉到平行磁場（磁通量為零）的過程中，感應電動勢正比於磁通量變化率（∝sinθ），θ 由 0° 增至 90° 時 sinθ 單調遞增，故感應電流持續增大；過程中磁通量始終單向減少，電流方向不變。",
    "imageData": "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"
   },
   {
@@ -44281,7 +44281,7 @@
    "subject": "自然",
    "grade": 9,
    "unit": "電與磁",
-   "stem": "一個直流電動機的線圈在磁場中受力旋轉。若在線圈旋轉到與磁場平行的位置時（即線圈平面與磁力線平行），以下敘述何者正確？",
+   "stem": "一個直流電動機的線圈在磁場中受力旋轉。若線圈旋轉到「線圈平面與磁力線垂直」的位置時，以下敘述何者正確？",
    "options": [
     "此時線圈受到的安培力（磁力）最大，旋轉速度最快",
     "此時線圈受到的安培力最小為零，但因慣性繼續旋轉",
@@ -44289,7 +44289,7 @@
     "此時線圈受到的安培力最小，旋轉力矩也最小"
    ],
    "answerIndex": 2,
-   "explanation": "當線圈平面與磁力線平行時，線圈兩側導線所受的安培力（F=BIL）大小固定且最大，但此時兩力的作用線恰好通過旋轉軸（力臂為零），使得轉動力矩為零，線圈需靠慣性通過此位置。"
+   "explanation": "當線圈平面與磁力線垂直時（磁通量最大的「死點」位置），線圈兩側導線所受安培力 F=BIL 大小不變，但兩力的作用線恰好通過旋轉軸，力臂為零，故力矩為零，線圈須靠慣性通過此位置。"
   },
   {
    "id": 40561,
@@ -44405,7 +44405,7 @@
    "stem": "下列關於日食與月食的比較，何者正確？",
    "options": [
     "日食發生時，全球各地在同一時刻皆可觀測到",
-    "月食發生時，只有夜半球面向月球的地區才能同時觀測到",
+    "月全食時，月球會完全消失，看不見任何光",
     "日食一定在農曆十五發生，月食一定在農曆初一發生",
     "月食每次持續時間通常比日全食持續時間長"
    ],
@@ -45003,15 +45003,15 @@
    "subject": "自然",
    "grade": 7,
    "unit": "生物的組成與細胞",
-   "stem": "阿明學習生物組成層次後，嘗試將下列項目由小到大排列：①肌肉細胞 ②肌肉組織 ③手臂 ④運動系統 ⑤肌肉纖維（屬細胞層次）。正確的排列順序為何？",
+   "stem": "阿明學習生物組成層次後，嘗試將下列項目由小到大排列：①肌肉細胞 ②肌肉組織 ③手臂 ④運動系統。正確的排列順序為何？",
    "options": [
     "①②③④",
-    "⑤①②③④",
-    "①⑤②③④",
-    "⑤②①③④"
+    "②①③④",
+    "①②④③",
+    "②①④③"
    ],
    "answerIndex": 0,
-   "explanation": "生物體的結構層次由小到大為：細胞→組織→器官→系統→個體，對應為肌肉細胞（①）→肌肉組織（②）→手臂（器官，③）→運動系統（④），故正確答案為①②③④。"
+   "explanation": "生物體的結構層次由小到大為：細胞→組織→器官→系統，對應為肌肉細胞（①）→肌肉組織（②）→手臂（器官，③）→運動系統（④），故正確排列為①②③④。"
   },
   {
    "id": 40609,
@@ -45575,15 +45575,15 @@
    "subject": "自然",
    "grade": 7,
    "unit": "生殖與遺傳",
-   "stem": "豌豆中，高莖（T）對矮莖（t）為顯性。將一批表現型全為高莖的豌豆進行自交，後代中出現了矮莖植株。由此可推論這批高莖豌豆的基因型為何？",
+   "stem": "豌豆中，高莖（T）對矮莖（t）為顯性。將一批表現型全為高莖的豌豆進行自交，後代中出現了矮莖植株。由此可「確定」這批高莖豌豆中必定含有哪種基因型的個體？",
    "options": [
-    "全部為 TT",
-    "全部為 Tt",
-    "TT 和 Tt 混合",
-    "無法判斷"
+    "TT",
+    "Tt",
+    "tt",
+    "無法確定任何基因型"
    ],
-   "answerIndex": 2,
-   "explanation": "題目敘述為「全為高莖的豌豆自交後出現矮莖」。能產生矮莖（tt）後代者必為 Tt；但僅憑此資訊無法排除批次中同時含有 TT 個體（TT 自交不會出現矮莖，但其存在不影響整體仍會出現矮莖），故無法斷定全為 Tt，最合理推論為這批高莖中含有 Tt（可能與 TT 混合），答案選 TT 和 Tt 混合最符合可推論的合理情境。"
+   "answerIndex": 1,
+   "explanation": "後代出現矮莖（tt），親代必有能提供 t 配子的高莖個體，即必定含有 Tt（異型合子）。批次中是否同時含 TT 則無法由此判斷；tt 是矮莖，不可能出現在「全為高莖」的親代中。"
   },
   {
    "id": 40647,
@@ -45673,7 +45673,7 @@
     "100％"
    ],
    "answerIndex": 1,
-   "explanation": "舅舅患血友病，其帶病基因的 X 必來自外婆；外婆表現正常，故外婆為攜帶者。小玲母親有 1/2 機率為攜帶者；若母親為攜帶者，小玲有 1/2 機率為攜帶者，故小玲為攜帶者的機率 = 1/2 × 1/2 = 1/4 = 25%。原標示答案 50% 有誤，已修正為 25%（選項索引1）。"
+   "explanation": "舅舅患血友病，其帶病基因的 X 必來自外婆；外婆表現正常，故外婆為攜帶者。小玲母親有 1/2 機率為攜帶者；若母親為攜帶者，小玲有 1/2 機率為攜帶者，故小玲為攜帶者的機率 = 1/2 × 1/2 = 1/4 = 25%。"
   },
   {
    "id": 40653,
@@ -45725,7 +45725,7 @@
    "subject": "自然",
    "grade": 7,
    "unit": "生態系與環境",
-   "stem": "下表為某池塘食物鏈各階層的能量（單位：千卡）：藻類 10000、水草蟲 1200、小魚 150、大魚 18。若能量傳遞效率固定為 10%，則以下哪一階層的實際能量與理論值最吻合？",
+   "stem": "下表為某池塘食物鏈各階層的能量（單位：千卡）：藻類 10000、水草蟲 1200、小魚 150、大魚 18。若理論能量傳遞效率為 10%，下列敘述何者正確？",
    "options": [
     "水草蟲（理論值 1000 千卡）",
     "小魚（理論值 120 千卡）",
@@ -46589,7 +46589,7 @@
     "12 公尺",
     "18 公尺"
    ],
-   "answerIndex": 1,
+   "answerIndex": 2,
    "explanation": "波長 = 波速 × 週期 = 6 × 2 = 12 公尺。縱波中相鄰兩密部（或疏部）間距為一個波長，即 12 公尺；相鄰密部與疏部間距為半個波長 6 公尺。本題問的是「相隔一個密部」，即一個波長 = 12 公尺。"
   },
   {
@@ -46900,13 +46900,13 @@
    "unit": "光與透鏡",
    "stem": "小華想用凸透鏡在牆壁上投影出清晰的燭焰像，但目前影像模糊且偏小。他應該如何調整？",
    "options": [
-    "將燭焰移靠近透鏡，同時將透鏡移靠近牆壁",
-    "將燭焰移離透鏡，同時微調透鏡位置",
+    "將燭焰移離透鏡，同時將透鏡移靠近牆壁",
+    "將燭焰移靠近透鏡（仍保持在焦距之外），並將透鏡遠離牆壁後微調",
     "換用焦距更長的凸透鏡，其他不變",
     "將燭焰移到焦點以內再觀察"
    ],
    "answerIndex": 1,
-   "explanation": "影像偏小且模糊，表示物距相對焦距過大，像距較短、像較小。應將燭焰移離透鏡（減小物距與焦距的比值），使物距接近二倍焦距，像距增大，像變大並重新聚焦清晰。"
+   "explanation": "影像清晰但偏小，表示物距過大、像距過短。要放大實像，應減小物距（讓燭焰靠近透鏡，但仍在焦距外），此時像距變長，需將透鏡（相對牆壁）拉開距離再微調，即可得到較大且清晰的像。"
   },
   {
    "id": 40735,
@@ -47533,7 +47533,7 @@
    "options": [
     "垂直地面向上",
     "沿斜面向上",
-    "垂直斜面指向木塊",
+    "垂直斜面、指向斜面內部（離開木塊的方向）",
     "垂直斜面離開斜面（指向木塊遠離斜面的一側）"
    ],
    "answerIndex": 3,
@@ -47665,7 +47665,7 @@
    "subject": "自然",
    "grade": 9,
    "unit": "功與能量",
-   "stem": "下列哪一種情況，「施力對物體做了負功」？",
+   "stem": "下列哪一種情況，「施力對物體不做功」？",
    "options": [
     "用力將書包提起，向上移動 1 m",
     "踢足球後球向前飛出，腳仍在施力方向",
@@ -47673,7 +47673,7 @@
     "用手向下壓彈簧，彈簧被壓縮"
    ],
    "answerIndex": 2,
-   "explanation": "做勻速圓周運動時，繩子拉力（向心力）方向始終指向圓心，物體位移方向與繩子拉力垂直，兩者夾角為 90°，繩子對物體做的功為零。其餘三選項施力方向與位移方向一致（同向），皆做正功，故唯有此項不做正功。"
+   "explanation": "做勻速圓周運動時，繩子拉力（向心力）方向始終指向圓心，與物體位移方向垂直（夾角 90°），故繩子對物體做的功為零。其餘三選項施力方向與位移方向相同，皆做正功。"
   },
   {
    "id": 40786,
@@ -47713,7 +47713,7 @@
    "stem": "一顆子彈射入靜止的木塊後嵌在其中，子彈與木塊一起向前移動。此過程中，「子彈對木塊做的功」與「克服阻力散失的熱能」之間的關係，下列何者正確？",
    "options": [
     "子彈對木塊做的功等於熱能散失",
-    "子彈對木塊做的功等於子彈動能的減少量",
+    "子彈對木塊做的功等於木塊動能增加量的一半",
     "子彈對木塊做的功大於熱能散失",
     "子彈對木塊做的功等於木塊動能的增加量加上熱能散失"
    ],
@@ -47788,13 +47788,13 @@
    "unit": "功與能量",
    "stem": "小強在光滑水平面上推一個箱子，先以 F 的力推箱子移動 d 的距離，再以 2F 的力推箱子移動同樣 d 的距離。兩段過程比較，下列何者正確？",
    "options": [
-    "第二段做的功是第一段的 2 倍，第二段末速率是第一段末速率的 2 倍",
+    "第二段做的功是第一段的 2 倍，且第二段末速率大於第一段末速率",
     "第二段做的功是第一段的 2 倍，但末速率相同",
     "兩段做的功相同，第二段末速率較大",
     "第二段做的功是第一段的 4 倍，末速率也是 4 倍"
    ],
    "answerIndex": 0,
-   "explanation": "第二段施力為第一段的 2 倍，位移相同，故第二段做的功是第一段的 2 倍（2Fd）；由功能定理，更多的功對應更大的動能增量，因此第二段末速率大於第一段末速率。"
+   "explanation": "第二段施力 2F、位移同為 d，做功 2Fd 為第一段（Fd）的 2 倍。由功能定理，兩段共對箱子做功 3Fd，故第二段結束時動能為第一段結束時的 3 倍，末速率為 √3 倍（並非 2 倍），但確實大於第一段末速率。"
   },
   {
    "id": 40794,
@@ -47911,7 +47911,7 @@
    "options": [
     "螺線管通電後，兩端會產生 N、S 兩極",
     "斷電後螺線管的磁性立即消失（鐵芯為軟鐵時）",
-    "增加電流方向不影響磁極的方向",
+    "改變電流方向，不會影響磁極的方向",
     "將電流反向，原本的 N 極會變成 S 極"
    ],
    "answerIndex": 2,
@@ -48057,7 +48057,7 @@
    "subject": "自然",
    "grade": 9,
    "unit": "地球與宇宙(天文)",
-   "stem": "某天文愛好者拍攝到月相照片，顯示月球右半部明亮、左半部黑暗，且位於傍晚西方天空。此月相最可能是？",
+   "stem": "某天文愛好者拍攝到月相照片，顯示月球右半部明亮、左半部黑暗，且於傍晚時分高掛「南方」天空。此月相最可能是？",
    "options": [
     "眉月（農曆初三左右）",
     "上弦月（農曆初七、八左右）",
@@ -48065,7 +48065,7 @@
     "殘月（農曆二十七左右）"
    ],
    "answerIndex": 1,
-   "explanation": "上弦月出現在傍晚西方（高掛南方至西方）天空，右半部（西側）受陽光照射而明亮，左半部暗。農曆初七、八前後為上弦月。"
+   "explanation": "上弦月（農曆初七、八）於日落時位於南方天空最高處，約午夜才西沉；其右半部（西側，朝太陽方向）受陽光照射明亮。眉月傍晚低垂西方，下弦月與殘月則要下半夜至清晨才可見。"
   },
   {
    "id": 40812,
@@ -48606,7 +48606,7 @@
     "宜蘭縣"
    ],
    "answerIndex": 2,
-   "explanation": "卑南遺址位於台東縣卑南鄉，是台灣規模最大的新石器時代晚期遺址，以大量石板棺與玉器聞名。"
+   "explanation": "卑南遺址位於台東縣臺東市（卑南遺址公園），是台灣規模最大的新石器時代晚期遺址，以大量石板棺與玉器聞名。"
   },
   {
    "id": 50004,
@@ -49026,7 +49026,7 @@
     "林朝棟，率軍北上抵抗後被俘"
    ],
    "answerIndex": 0,
-   "explanation": "臺灣民主國首任總統為唐景崧，日軍在澳底登陸後，唐景崧隨即化裝潛逃回中國大陸，臺灣民主國僅維持約12天。"
+   "explanation": "臺灣民主國首任總統為唐景崧，日軍自澳底登陸後，他就任僅十餘日即化裝內渡中國大陸；其後由劉永福在臺南主持抗日，至同年 10 月離臺，民主國前後歷時約 150 天而瓦解。"
   },
   {
    "id": 50032,
@@ -50400,7 +50400,7 @@
    "unit": "中國史:先秦到秦漢",
    "stem": "漢武帝採納董仲舒的建議，確立哪一思想為官方正統，奠定往後兩千年中國政治文化的主軸？",
    "options": [
-    "廢黜百家，獨尊儒術",
+    "罷黜百家，獨尊儒術",
     "兼容並蓄，百家並用",
     "以法治國，廢除禮教",
     "崇尚道家，無為而治"
@@ -51081,7 +51081,7 @@
     "衣索比亞高原"
    ],
    "answerIndex": 1,
-   "explanation": "吉力馬札羅山位於坦尚尼亞，海拔約5,895公尺，是非洲最高峰，山頂終年積雪，有「非洲屋脊」之稱。"
+   "explanation": "吉力馬札羅山位於坦尚尼亞，海拔約5,895公尺，是非洲最高峰，山頂終年積雪，有「非洲之巔」之稱。"
   },
   {
    "id": 50169,
@@ -51178,7 +51178,7 @@
    "subject": "社會",
    "grade": 8,
    "unit": "世界地理:各大洲概覽",
-   "stem": "下列哪一洲是唯一橫跨東西兩半球的洲？",
+   "stem": "下列哪一洲是全世界「跨緯度最廣」的大洲？",
    "options": [
     "亞洲",
     "非洲",
@@ -51186,7 +51186,7 @@
     "大洋洲"
    ],
    "answerIndex": 0,
-   "explanation": "亞洲東部的楚科奇半島等地區越過180°經線進入西半球，西部則位於東半球，因此亞洲橫跨東西兩半球。"
+   "explanation": "亞洲北起北緯 77° 的切柳斯金角附近，南至約南緯 11°，跨緯度將近 90 度，是各大洲中跨緯度最廣者，也因此氣候類型最為多樣。"
   },
   {
    "id": 50176,
@@ -51601,12 +51601,12 @@
    "stem": "阿明未滿 12 歲，觸犯了法律。依少年事件處理法，下列處置何者最符合現行法制？",
    "options": [
     "直接送監獄服刑",
-    "移送少年法院（庭）以保護事件方式處理",
+    "不移送少年法院，由學校與社政單位依兒少輔導機制處理",
     "依照成年人標準課以刑罰",
     "完全不負任何法律責任且不做任何處置"
    ],
    "answerIndex": 1,
-   "explanation": "未滿 12 歲為無責任能力，但仍可依少年事件處理法移送少年法院以保護事件處理，著重輔導與矯正而非懲罰。"
+   "explanation": "少年事件處理法於民國 108 年（2019）修正，刪除 7 歲以上未滿 12 歲兒童觸法準用少年司法的規定；自 110 年 6 月起，未滿 12 歲兒童觸法不再進入少年司法程序，回歸教育與社政體系輔導處理。但並非「完全不做任何處置」，故 D 錯誤。"
   },
   {
    "id": 50204,
@@ -53867,7 +53867,7 @@
    "stem": "清領時期劉銘傳擔任台灣巡撫期間，推動多項現代化建設，其中下列哪一項是正確的配對？",
    "options": [
     "劉銘傳──建設基隆至台南的縱貫鐵路",
-    "劉銘傳──在台北設立郵政總局並鋪設電報線",
+    "劉銘傳──奏請廢除渡臺禁令，開放內地人民來臺",
     "劉銘傳──建設台灣第一條從基隆到新竹的鐵路",
     "劉銘傳──開鑿烏山頭水庫以灌溉嘉南平原"
    ],
@@ -53984,7 +53984,7 @@
    "subject": "社會",
    "grade": 7,
    "unit": "臺灣史:清領與日治",
-   "stem": "有學者指出：「日治時期台灣農民雖然生產了大量稻米，自己卻常常吃不飽，因為大部分的米都被運往日本。」造成此現象的制度因素，下列何者最為關鍵？",
+   "stem": "有學者指出：「日治後期（1939 年進入戰時體制之後），台灣農民雖然生產了大量稻米，自己卻常常吃不飽，因為大部分的米都被運往日本。」造成此現象的制度因素，下列何者最為關鍵？",
    "options": [
     "台灣農民普遍懶惰，不願意儲糧自用",
     "總督府以低於市場的「強制收購價格」向農民收購米糧",
@@ -53992,14 +53992,14 @@
     "日本商人以高價收購台灣稻米，農民自願大量出口"
    ],
    "answerIndex": 1,
-   "explanation": "日治時期總督府以「米穀統制」政策，透過低於市場行情的官方收購價格強制徵購農民稻米，再以較高價格輸往日本，農民雖生產大量糧食，實際可支配的糧食卻十分有限，形成「生產者挨餓」的矛盾現象。"
+   "explanation": "1939 年《米穀移出管理令》後，總督府進入戰時米穀統制，以低於市場行情的公定價格強制收購農民稻米輸往日本，農民實際可支配的糧食十分有限，形成「生產者挨餓」的現象。"
   },
   {
    "id": 50363,
    "subject": "社會",
    "grade": 7,
    "unit": "臺灣地理:位置、地形與氣候",
-   "stem": "小明暑假從高雄搭船出海，發現船隻先向西南方行駛約一小時後，抵達一座珊瑚礁島嶼，請問他最可能到達的是哪一個島嶼？",
+   "stem": "小明暑假從屏東東港搭船出海，發現船隻向西南方行駛約半小時後，抵達一座珊瑚礁島嶼，請問他最可能到達的是哪一個島嶼？",
    "options": [
     "蘭嶼",
     "小琉球",
@@ -54007,7 +54007,7 @@
     "澎湖"
    ],
    "answerIndex": 1,
-   "explanation": "小琉球位於高雄外海的西南方，是由珊瑚礁構成的島嶼，距高雄約14公里，搭船約一小時可抵達，符合題目描述。"
+   "explanation": "小琉球位於屏東東港西南方外海約 14 公里，是台灣沿海唯一全由珊瑚礁構成的島嶼，自東港搭船約 25–30 分鐘可達，符合題目描述。"
   },
   {
    "id": 50364,
@@ -54089,7 +54089,7 @@
    "subject": "社會",
    "grade": 7,
    "unit": "臺灣地理:位置、地形與氣候",
-   "stem": "某旅遊網站介紹：「這裡四面環海、地勢低平，夏季高溫乾燥、冬季多風強勁，玄武岩地形獨特。」請問最符合描述的地點是？",
+   "stem": "某旅遊網站介紹：「這裡四面環海、地勢低平，全年降雨較少、冬季季風強勁，玄武岩地形獨特。」請問最符合描述的地點是？",
    "options": [
     "金門",
     "馬祖",
@@ -54167,12 +54167,12 @@
    "stem": "某同學將臺灣各地年雨量由多到少排列，下列排列順序何者正確？",
    "options": [
     "基隆 > 臺北 > 臺南 > 花蓮",
-    "基隆 > 花蓮 > 臺北 > 臺南",
+    "基隆 > 臺北 > 花蓮 > 臺南",
     "花蓮 > 基隆 > 臺南 > 臺北",
     "臺北 > 基隆 > 花蓮 > 臺南"
    ],
    "answerIndex": 1,
-   "explanation": "基隆因冬季東北季風的迎風面效應，年雨量全臺最多（約3000公釐以上）；花蓮年雨量次之；臺北再次；臺南乾季明顯，年雨量較少。"
+   "explanation": "依氣候平均值，基隆為東北季風迎風地，年雨量全臺前列（約 3700 毫米）；臺北盆地約 2400 毫米；花蓮約 2100 毫米；臺南乾濕季分明，年雨量約 1700 毫米。故由多到少為基隆＞臺北＞花蓮＞臺南。"
   },
   {
    "id": 50375,
@@ -54224,15 +54224,15 @@
    "subject": "社會",
    "grade": 7,
    "unit": "臺灣地理:位置、地形與氣候",
-   "stem": "臺灣東北部的宜蘭地區，即使在夏季，也時常出現連續陰雨天氣，主要原因為何？",
+   "stem": "臺灣東北部的宜蘭地區，每逢秋冬季節時常出現連續陰雨天氣，主要原因為何？",
    "options": [
     "宜蘭位於背風坡，熱帶氣旋容易滯留於此",
     "宜蘭面向東北方，東北季風與西南季風在此交會",
-    "宜蘭位於雪山山脈的迎風坡，夏季西南氣流越山後帶來降雨",
-    "宜蘭三面環山、一面向海，海洋水氣無法散逸"
+    "宜蘭面向東北，位於東北季風的迎風地帶，水氣受地形抬升形成地形雨",
+    "宜蘭緯度較高，氣溫偏低，水氣容易凝結成雨"
    ],
    "answerIndex": 2,
-   "explanation": "宜蘭位於中央山脈與雪山山脈的交會處，面向東北，不僅冬季受東北季風影響多雨，夏季西南季風越過山脈後也在此產生地形雨，因此多雨現象相當明顯。"
+   "explanation": "宜蘭（蘭陽平原）開口朝向東北，秋冬時東北季風挾帶海上水氣長驅直入，受雪山山脈與中央山脈抬升，形成綿延的地形雨，因此基隆、宜蘭一帶秋冬多陰雨。"
   },
   {
    "id": 50379,
@@ -54607,7 +54607,7 @@
     "宗教規範，因為各宗教都教導不可貪財"
    ],
    "answerIndex": 2,
-   "explanation": "依據《刑法》第337條，意圖為自己不法之所有而侵占遺失物，可處罰金或拘役，屬於國家法律規範。道德或習俗缺乏國家強制力，只有法律才由國家機關強制執行。"
+   "explanation": "依據《刑法》第337條，意圖為自己不法之所有而侵占遺失物，可處一萬五千元以下罰金，屬於國家法律規範。道德或習俗缺乏國家強制力，只有法律才由國家機關強制執行。"
   },
   {
    "id": 50404,
@@ -55169,15 +55169,15 @@
    "subject": "社會",
    "grade": 8,
    "unit": "中國史:先秦到秦漢",
-   "stem": "甲、乙兩位同學討論「春秋五霸」：甲說：「五霸中齊桓公最早稱霸，靠管仲改革達成富國強兵。」乙說：「晉文公也是五霸之一，他在城濮之戰中以少勝多擊敗楚國。」請判斷兩人說法的正確性。",
+   "stem": "甲、乙兩位同學討論「春秋五霸」：甲說：「五霸中齊桓公最早稱霸，靠管仲改革達成富國強兵。」乙說：「晉文公也是五霸之一，他在城濮之戰中擊敗的對手是秦國。」請判斷兩人說法的正確性。",
    "options": [
-    "甲正確，乙錯誤：晉文公在城濮之戰中以多勝少，非以少勝多",
+    "甲正確，乙錯誤：城濮之戰晉文公擊敗的是楚國，不是秦國",
     "甲錯誤，乙正確：管仲協助的是晉文公而非齊桓公",
     "甲、乙皆正確",
     "甲、乙皆錯誤"
    ],
    "answerIndex": 0,
-   "explanation": "齊桓公在管仲輔佐下最早稱霸，甲正確。城濮之戰（西元前632年）晉文公率晉、宋、齊、秦聯軍對抗楚軍，晉方聯軍兵力並不居於絕對劣勢，且採「退避三舍」計謀取勝，並非以少勝多，故乙說法不夠準確。"
+   "explanation": "齊桓公在管仲輔佐下最早稱霸，甲正確。城濮之戰（西元前 632 年）是晉文公率聯軍擊敗「楚國」的關鍵戰役，晉文公並以「退避三舍」聞名；乙說對手是秦國，錯誤。"
   },
   {
    "id": 50442,
@@ -55514,7 +55514,7 @@
    "subject": "社會",
    "grade": 8,
    "unit": "世界地理:各大洲概覽",
-   "stem": "某國家的氣候類型從南到北依序為：熱帶雨林氣候→熱帶莽原氣候→熱帶沙漠氣候→地中海型氣候→溫帶海洋性氣候。根據此氣候分布規律，請問這個國家最可能位於哪個大洲？",
+   "stem": "某「大洲」的氣候類型從赤道向北依序出現：熱帶雨林氣候→熱帶莽原氣候→熱帶沙漠氣候→地中海型氣候。根據此氣候分布規律，這最可能是哪個大洲？",
    "options": [
     "亞洲",
     "非洲",
@@ -55522,7 +55522,7 @@
     "北美洲"
    ],
    "answerIndex": 1,
-   "explanation": "非洲的氣候分布以赤道為中心，向南北兩側呈對稱分布，從赤道往外依序為熱帶雨林、熱帶莽原、熱帶沙漠，再往高緯度則有地中海型氣候，此分布規律最符合非洲大陸的特徵。"
+   "explanation": "非洲的氣候以赤道為中心向南北兩側大致對稱分布：赤道附近為熱帶雨林，向外依序為熱帶莽原、熱帶沙漠（撒哈拉），北緣沿地中海一帶為地中海型氣候。此「南北對稱」的分布規律是非洲最典型的特徵。"
   },
   {
    "id": 50465,
@@ -55821,8 +55821,8 @@
     "縣長被起訴後須停職，俟判決確定無罪方可復職",
     "無論判決結果如何，縣長均可繼續執行職務直到任期屆滿"
    ],
-   "answerIndex": 2,
-   "explanation": "依《公務員懲戒法》及相關規定，公職人員遭起訴後可依法停職，若判決確定無罪則可聲請復職。並非起訴即喪失資格，也非判決有罪確定才喪失資格，停職與復職程序有其規定。"
+   "answerIndex": 1,
+   "explanation": "依《地方制度法》第 78 條，縣市長涉貪污案件須「經第一審判處有期徒刑以上之刑」才停職，單純被起訴並不停職；第 79 條規定判決有罪「確定」後才解除職務。故「判決有罪確定後才喪失縣長資格」正確。"
   },
   {
    "id": 50485,
@@ -55953,11 +55953,11 @@
    "options": [
     "向行政院提出訴願",
     "向地方法院提起民事訴訟",
-    "向司法院大法官聲請憲法訴願（釋憲）",
+    "向憲法法庭聲請法規範及裁判憲法審查（釋憲）",
     "向監察院提出陳情"
    ],
    "answerIndex": 2,
-   "explanation": "當人民認為其憲法上的基本權利遭受侵害，且窮盡一般法律救濟途徑後，可向司法院大法官聲請憲法訴願，請求大法官解釋憲法並宣告該法令違憲。"
+   "explanation": "2022 年《憲法訴訟法》施行後，人民認為確定終局裁判所適用的法規範或裁判本身牴觸憲法時，於用盡審級救濟後，可向「憲法法庭」聲請法規範及裁判憲法審查，這是國家最高層級的憲法保障機制。"
   },
   {
    "id": 50494,
@@ -56647,7 +56647,7 @@
     "羅伯斯比爾"
    ],
    "answerIndex": 1,
-   "explanation": "拿破崙將法國第一共和改造為第一帝國，遠征俄羅斯慘敗後遭流放聖赫勒拿島，符合題目所有敘述。路易十四是太陽王、黎塞留是首相、羅伯斯比爾屬恐怖統治時期，均不符合。"
+   "explanation": "拿破崙將法國第一共和改造為第一帝國；1812 年遠征俄羅斯慘敗由盛轉衰，1814 年退位流放厄爾巴島，復辟後於滑鐵盧戰敗，1815 年被流放聖赫勒拿島終老，符合題目所有敘述。"
   },
   {
    "id": 50540,
@@ -56804,7 +56804,7 @@
    "subject": "社會",
    "grade": 9,
    "unit": "世界史:近代與現代",
-   "stem": "二戰期間，英、法對德國採取「綏靖政策」的代表事件是什麼？此政策最終達到預期效果嗎？",
+   "stem": "二戰爆發前，英、法對德國採取「綏靖政策」的代表事件是什麼？此政策最終達到預期效果嗎？",
    "options": [
     "敦克爾克大撤退，此後英法重整軍備，成功嚇阻德國",
     "慕尼黑協定允許德國併吞蘇台德地區，但希特勒隨即進占整個捷克斯洛伐克",
@@ -57690,7 +57690,7 @@
    "subject": "社會",
    "grade": 9,
    "unit": "地理:地圖判讀與地理技能",
-   "stem": "一張地形圖顯示某山區有四條路徑可通往山頂，路徑上等高線穿越數分別為：甲路 12 條、乙路 8 條、丙路 15 條、丁路 6 條，且四條路徑起點與終點高度相同。請問哪條路徑的平均坡度最緩？",
+   "stem": "一張地形圖顯示某山區有四條路徑可通往山頂，路徑上等高線穿越數分別為：甲路 12 條、乙路 8 條、丙路 15 條、丁路 6 條，且四條路徑的圖上長度相同。請問哪條路徑的平均坡度最緩？",
    "options": [
     "甲路",
     "乙路",
@@ -57698,7 +57698,7 @@
     "丁路"
    ],
    "answerIndex": 3,
-   "explanation": "起點與終點高度相同，穿越等高線數越少，代表相同高度差分布在較長的水平距離上，坡度越緩。丁路只穿越 6 條，平均坡度最緩。"
+   "explanation": "路徑長度相同時，穿越的等高線數越少，代表爬升的總高度差越小，平均坡度越緩。丁路只穿越 6 條等高線，平均坡度最緩。"
   },
   {
    "id": 50610,
@@ -58172,13 +58172,13 @@
    "unit": "臺灣史:清領與日治",
    "stem": "比較清領時期與日治時期的基層行政組織，下列敘述何者正確？",
    "options": [
-    "清領時期設「保甲制度」，日治時期改為「里甲制度」",
-    "清領時期以「里甲制度」管理漢人，日治時期則強化「保甲制度」作為警察輔助系統",
+    "清領時期設「里甲制度」，日治時期改為「保甲制度」",
+    "清領時期已有保甲組織維持地方治安，日治時期強化「保甲制度」作為警察輔助系統",
     "兩個時期均採相同的「保甲制度」，功能與結構完全一致",
     "日治時期廢除一切舊有基層組織，改以日本本土的町村制直接管理"
    ],
    "answerIndex": 1,
-   "explanation": "清領時期漢人聚落採「里甲制度」管理；日治時期總督府沿用並強化「保甲制度」，使其成為警察的輔助工具，負責連坐管理、戶口調查、推行政令，強制性遠高於清代的里甲。"
+   "explanation": "清代臺灣的基層治安即以保甲（牌甲）編組；日治時期總督府沿用並大幅強化保甲制度，配合連坐處罰、戶口調查與政令推行，使其成為警察體系的輔助工具，強制性遠高於清代。"
   },
   {
    "id": 50642,
@@ -58247,13 +58247,13 @@
    "unit": "臺灣地理:位置、地形與氣候",
    "stem": "小明家住在臺灣本島最東端附近，每天都是全臺最早看到日出的人之一。請問小明家最可能位於下列哪個縣市？",
    "options": [
+    "新北市",
     "宜蘭縣",
     "花蓮縣",
-    "臺東縣",
-    "屏東縣"
+    "臺東縣"
    ],
    "answerIndex": 0,
-   "explanation": "臺灣本島最東端為宜蘭縣的三貂角，因此最東端附近的居民最早迎接日出。花蓮、臺東雖位於東部，但均不及三貂角偏東。"
+   "explanation": "臺灣本島極東點為「三貂角」，位於新北市貢寮區，因此本島最東端附近的居民位於新北市。許多人誤以為極東點在宜蘭，實際上三貂角燈塔就在新北市境內。"
   },
   {
    "id": 50647,
@@ -58337,13 +58337,13 @@
    "unit": "臺灣地理:位置、地形與氣候",
    "stem": "北回歸線通過臺灣本島，若有一條公路沿北回歸線向西延伸，依序會經過哪些縣市？（由東向西）",
    "options": [
-    "花蓮縣→南投縣→嘉義縣→嘉義市",
+    "花蓮縣→南投縣→嘉義縣→臺灣海峽",
     "臺東縣→高雄市→臺南市→嘉義縣",
     "花蓮縣→臺東縣→高雄市→臺南市",
     "宜蘭縣→花蓮縣→南投縣→臺中市"
    ],
    "answerIndex": 0,
-   "explanation": "北回歸線（北緯23.5°）由東向西穿越花蓮縣、南投縣、嘉義縣、嘉義市，最後進入臺灣海峽，此為標準考點路徑。"
+   "explanation": "北回歸線（北緯 23.5°）由東向西通過花蓮縣（瑞穗、豐濱一帶）、南投縣南端山區、嘉義縣（水上鄉設有北回歸線紀念碑），之後出海進入臺灣海峽。"
   },
   {
    "id": 50653,
@@ -58775,10 +58775,10 @@
     "法律",
     "道德",
     "習俗",
-    "校規（非正式制度）"
+    "校規（學校訂定的正式規章）"
    ],
    "answerIndex": 3,
-   "explanation": "校規是學校為維持校園秩序所訂定的內部規範，屬於「特定組織的規章制度」，不具有全國性法律效力，違反時由學校依規處置。"
+   "explanation": "校規是學校依權責明文訂定的組織內部「正式」規範，違反時由學校依規定處置；它不具全國性法律效力，但仍屬成文的制度規範，與不成文的道德、習俗不同。"
   },
   {
    "id": 50682,
@@ -59700,7 +59700,7 @@
    "subject": "社會",
    "grade": 8,
    "unit": "世界地理:各大洲概覽",
-   "stem": "甲地靠近北極圈，終年寒冷，夏季有永晝現象，以針葉林與苔原為主要植被；乙地位於中緯度，四季分明，受大陸性氣候影響，冬冷夏熱，夏季降水較多。請問甲、乙兩地最可能分別位於哪個洲？",
+   "stem": "甲地靠近北極圈，終年寒冷，夏季有永晝現象，以針葉林與苔原為主要植被，沿海多峽灣地形；乙地位於世界最大大陸的內陸，距海遙遠，四季分明，冬冷夏熱，夏季降水較多。請問甲、乙兩地最可能分別位於哪個洲？",
    "options": [
     "甲：北美洲、乙：歐洲",
     "甲：歐洲、乙：亞洲",
@@ -59708,7 +59708,7 @@
     "甲：北美洲、乙：南美洲"
    ],
    "answerIndex": 1,
-   "explanation": "北極圈附近針葉林與苔原氣候在歐洲北部（如斯堪地那維亞）非常典型；中緯度大陸性氣候冬冷夏熱、夏季多雨，是亞洲內陸（如中國北部或西伯利亞南部）的典型氣候特徵。"
+   "explanation": "「峽灣地形」是北歐斯堪地那維亞半島（歐洲）的招牌特徵；「世界最大大陸的內陸、距海遙遠的大陸性氣候」則指向亞洲內陸（如西伯利亞南部、中國北方），故甲為歐洲、乙為亞洲。"
   },
   {
    "id": 50744,
@@ -59880,7 +59880,7 @@
    "subject": "社會",
    "grade": 8,
    "unit": "公民:政府與政治參與",
-   "stem": "憲法規定行政院長須經立法院同意才能任命，這項設計最主要體現了哪一種政府運作原則？",
+   "stem": "憲法規定，司法院大法官由總統提名，須經立法院同意後才能任命。這項設計最主要體現了哪一種政府運作原則？",
    "options": [
     "司法獨立原則",
     "地方自治原則",
@@ -59888,7 +59888,7 @@
     "行政優位原則"
    ],
    "answerIndex": 2,
-   "explanation": "要求立法機關同意行政首長的任命，正是讓不同權力機關相互牽制、避免權力過度集中，體現「權力分立與制衡」的精神。"
+   "explanation": "重要人事須經立法機關行使同意權，讓行政（總統）與立法兩權相互牽制，避免權力集中於一方，體現「權力分立與制衡」原則。（註：現行憲政下行政院院長由總統直接任命，已無須立法院同意。）"
   },
   {
    "id": 50756,
@@ -60195,15 +60195,15 @@
    "subject": "社會",
    "grade": 8,
    "unit": "公民:法律與權利義務",
-   "stem": "依我國少年事件處理法，下列哪一項是「虞犯少年」的情形？",
+   "stem": "依我國少年事件處理法，下列哪一項屬於「曝險少年」的情形？",
    "options": [
     "已滿18歲的青年犯竊盜罪",
     "12歲少年因觸犯刑法而被警察逮捕",
-    "14歲少年經常深夜在外遊蕩，有觸犯刑罰法律之虞",
+    "14 歲少年無正當理由經常攜帶刀械，有觸犯刑罰法律之虞",
     "20歲成年人初次犯罪"
    ],
    "answerIndex": 2,
-   "explanation": "虞犯少年（現稱曝險少年）是指未滿18歲、尚未觸犯刑法，但有特定行為（如深夜遊蕩等），依其性格及環境有觸犯刑罰之虞的少年，可由少年法庭採取保護處分。"
+   "explanation": "民國 108 年修法將「虞犯」改為「曝險少年」，事由限於三款：無正當理由經常攜帶危險器械、施用毒品或迷幻物品、有預備犯罪或犯罪未遂而不罰之行為。舊法的「經常深夜在外遊蕩」已刪除，不再是曝險事由。"
   },
   {
    "id": 50777,
@@ -61278,7 +61278,7 @@
    "stem": "甲地在某城市的正北方 10 公里處，乙地在甲地的正東方 10 公里處。若某人從該城市出發，以步行方式先到甲地再到乙地，則乙地位於該城市的哪個方向？",
    "options": [
     "北偏東 45°",
-    "東偏北 45°",
+    "南偏東 45°",
     "正東方",
     "北偏東 30°"
    ],
@@ -61306,7 +61306,7 @@
    "subject": "社會",
    "grade": 9,
    "unit": "地理:地圖判讀與地理技能",
-   "stem": "某旅遊地圖上有一圖例說明：「□ 表示 1 平方公里」，圖上某湖泊面積量得約 12 個□，則此地圖的比例尺最可能為何？若圖上湖泊的長軸量得 6 公分，實際長軸應約為多少？",
+   "stem": "某旅遊地圖上有一圖例說明：「□ 表示 1 平方公里」，且圖上 □ 的邊長為 0.5 公分。圖上某湖泊面積量得約 12 個 □，則此地圖的比例尺為何？若圖上湖泊的長軸量得 6 公分，實際長軸應約為多少？",
    "options": [
     "比例尺 1：200,000；實際長軸約 12 公里",
     "比例尺 1：100,000；實際長軸約 6 公里",
