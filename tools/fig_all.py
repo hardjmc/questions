@@ -28,9 +28,18 @@ def new_ax(w=6.0, h=4.2, equal=True):
     return f, ax
 
 def save(f, qid):
-    f.savefig(os.path.join(OUT, f'q{qid}.png'), bbox_inches='tight', pad_inches=0.15, facecolor='white')
+    path = os.path.join(OUT, f'q{qid}.png')
+    f.savefig(path, bbox_inches='tight', pad_inches=0.15, facecolor='white')
     plt.close(f)
+    compress(path)
     print('saved', qid)
+
+def compress(path):
+    """減成 64 色 PNG(白底):線條圖畫質看不出差別,檔案約剩三成,舊版 App 一樣能讀。"""
+    from PIL import Image
+    im = Image.open(path).convert('RGBA')
+    bg = Image.new('RGB', im.size, 'white'); bg.paste(im, mask=im.split()[3])
+    bg.quantize(64, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.NONE).save(path, optimize=True)
 
 def dot(ax, x, y, label, dx=0.12, dy=0.12, color=INK, fs=13):
     ax.plot([x], [y], 'o', ms=4, color=color)

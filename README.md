@@ -32,18 +32,37 @@
 
 ## 驗證
 
-push 前先確認 JSON 有效:
+push 前一定要跑檢查工具,有「錯誤」就不要 push:
 
 ```
-python3 -c "import json; qs=json.load(open('Questions.json'))['questions']; print(len(qs), '題 OK')"
+python3 tools/validate_bank.py Questions.json
 ```
 
-App 端下載後也會先完整解析驗證,失敗會丟棄不落地,但仍建議 push 前自檢。
+它會檢查題號重複、正解範圍、格式標記與數學式是否成對、表格欄數、圖片能否解碼,
+並在格式版和純文字版的數字對不起來時提出警告。App 端下載後也會解析驗證,失敗會丟棄不落地。
+
+## 格式欄位(App 1.7 起)
+
+每題除了純文字的 `stem` / `options` / `explanation`,可以再加格式版(都可省略):
+
+| 欄位 | 內容 |
+|---|---|
+| `stemRich` | 題幹格式版 |
+| `optionsRich` | 選項格式版,數量必須和 `options` 相同 |
+| `explanationRich` | 詳解格式版 |
+| `table` | 附表:`{"caption": 選填, "header": [...], "rows": [[...], ...], "rowHeader": true/false}` |
+
+格式標記:`<u>底線</u>`、`<b>粗體</b>`、`<i>斜體</i>`、`$…$` 數學式。
+數學式支援 `\frac{分子}{分母}`、`\sqrt{x}`、`\sqrt[3]{x}`、`^{上標}`、`_{下標}`,
+以及 `\times \div \pm \le \ge \ne \approx \pi \circ \angle \triangle \cdot` 等符號;字面的錢字號寫 `\$`。
+
+**規則:純文字欄位一定要保留而且要能獨立看懂。** 1.6 以前的 App 不認得格式欄位,只會顯示純文字版,
+所以有表格的題目,純文字題幹裡也要寫出資料;用底線標示的字,純文字版改用「」或 [ ] 標出來。
 
 ## 題目附圖
 
 86 題內嵌 base64 PNG 附圖(`imageData` 欄位),由 `tools/fig_all.py` 產生
-(matplotlib;需 `pip3 install matplotlib`)。修圖流程:
+(matplotlib + Pillow;需 `pip3 install matplotlib pillow`;存檔時自動壓成 64 色 PNG)。修圖流程:
 
 ```
 python3 tools/fig_all.py <題號>        # 重新產生單張到 figs/
