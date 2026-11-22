@@ -80,10 +80,17 @@ parallel_cut / chord_dist / rt_tri / pie_fig / wave_pair …)。
 選項重新排列後,使用者手機裡記的「你上次選的」是舊位置,只有 **App 1.10 以上**會用 `legacyOrder` 換算。
 所以 v13 先只放進 App 1.10 的內建題庫(`bundledVersion = 13`),線上的 `Questions.json` / `manifest.json` 暫時維持 v12。
 
+### v14(2026-11)
+
+`next/Questions.json` 現在是 **v14**:在 v13 上刪掉 24 題「三角比基礎」(超出 108 課綱國中範圍),
+並新增 395 題(各科難題約 50 題、英語聽力 40 題、英語閱讀題組 5 組、國文/自然/社會題組各 5 組、
+數學相似形/幾何證明/立體圖形各 15 題),每題都經過獨立審題。舊題的選項位置沒有再動。
+App 1.11 內建 v14(`bundledVersion = 14`)。App 1.10 內建的是 v13(仍含三角比 24 題)。
+
 等 App 1.10 上架、大部分使用者更新後:
 1. `next/Questions.json` 移成根目錄的 `Questions.json`。
-2. `manifest.json` 的 `version` 改成 13。
+2. `manifest.json` 的 `version` 改成 **14**(要大於 1.10 內建的 13,1.10 使用者才會下載到刪題與新題)。
 3. 跑 `python3 tools/validate_bank.py Questions.json`,沒有錯誤再 commit + push。
 
-之後的勘誤一律改根目錄的 `Questions.json`(v13 格式)。新增題目時記得:每題 4 個選項、正解位置不要集中、
+之後的勘誤一律改根目錄的 `Questions.json`(v13/v14 格式),並繼續遞增版號。新增題目時記得:每題 4 個選項、正解位置不要集中、
 新題不需要 `legacyOrder`;聽力題 `stem` 要包含 `listening.script`,題組小題 `stem` 要包含 `group.passage`(舊版相容)。
