@@ -43,7 +43,8 @@ def to_plain(s):
     for _ in range(3): s = re.sub(r'\\frac\{([^{}]*)\}\{([^{}]*)\}', r'\1/\2', s)
     return s.replace('$', '')
 
-def digits(s): return Counter(re.findall(r'\d', s))
+SUPSUB = str.maketrans('⁰¹²³⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉', '01234567890123456789')
+def digits(s): return Counter(re.findall(r'\d', s.translate(SUPSUB)))   # x²、L₁ 的上下標也算數字
 
 def main(path):
     d = json.load(open(path)); qs = d['questions'] if isinstance(d, dict) else d
@@ -72,12 +73,35 @@ def main(path):
             warns.append(f'{i}.詳解: 數字對不上')
         if 'stemRich' in q and 'table' not in q and digits(to_plain(q['stemRich'])) != digits(q['stem']):
             warns.append(f'{i}.題幹: 數字對不上')
+        # 1.10 起的欄位
+        if len(set(q['options'])) != len(q['options']): errs.append(f'{i}: 選項重複')
+        if 'difficulty' in q and q['difficulty'] not in (1, 2, 3): errs.append(f'{i}: difficulty 必須是 1/2/3')
+        if 'legacyOrder' in q:
+            lo = q['legacyOrder']
+            if sorted(lo) != list(range(len(q['options']))): errs.append(f'{i}: legacyOrder 不是選項位置的排列')
+        if 'listening' in q:
+            l = q['listening']
+            if not l.get('script') or not l.get('prompt'): errs.append(f'{i}: listening 缺 script 或 prompt')
+            elif l['script'] not in q['stem']: errs.append(f'{i}: 舊版相容:stem 要包含聽力原文')
+        if 'group' in q:
+            g = q['group']
+            if not all(g.get(k) for k in ('id', 'title', 'passage')): errs.append(f'{i}: group 缺 id/title/passage')
+            if not q.get('groupStem'): errs.append(f'{i}: 題組小題缺 groupStem')
+            elif g.get('passage') and g['passage'] not in q['stem']: errs.append(f'{i}: 舊版相容:stem 要包含題組文章')
+        elif 'groupStem' in q: errs.append(f'{i}: 有 groupStem 卻沒有 group')
         if q.get('imageData'):
             try:
                 from PIL import Image
                 Image.open(io.BytesIO(base64.b64decode(q['imageData']))).verify()
             except Exception as e:
                 errs.append(f'{i}: 圖片無法解碼({e})')
+    # 題組:同組每題的 group 物件要一模一樣
+    groups = {}
+    for q in qs:
+        if 'group' in q:
+            gid = q['group'].get('id')
+            if gid in groups and groups[gid] != q['group']: errs.append(f'{q["id"]}: 題組 {gid} 內容和同組其他題不一致')
+            groups.setdefault(gid, q['group'])
     rich = sum(1 for q in qs if any(k in q for k in ('stemRich', 'optionsRich', 'explanationRich', 'table')))
     print(f'{len(qs)} 題,有格式欄位 {rich} 題,附圖 {sum(1 for q in qs if q.get("imageData"))} 題')
     for w in warns: print('警告', w)

@@ -71,3 +71,19 @@ python3 tools/fig_all.py <題號>        # 重新產生單張到 figs/
 
 新增附圖:在 fig_all.py 加一個 @fig(<題號>) 函式(參考現有模板:
 parallel_cut / chord_dist / rt_tri / pie_fig / wave_pair …)。
+
+## v13(題庫大整理)發布順序 —— 2026-11
+
+`next/Questions.json` 是 v13:選項重新排列(正解平均分在 A–D)、598 題補長錯誤選項、修 20 題洩題與 18 組重複題、
+新增數學國三 134 題 / 英語聽力 60 題 / 題組 15 組 45 題,並加上 `difficulty`、`legacyOrder`、`listening`、`group`/`groupStem` 欄位。
+
+選項重新排列後,使用者手機裡記的「你上次選的」是舊位置,只有 **App 1.10 以上**會用 `legacyOrder` 換算。
+所以 v13 先只放進 App 1.10 的內建題庫(`bundledVersion = 13`),線上的 `Questions.json` / `manifest.json` 暫時維持 v12。
+
+等 App 1.10 上架、大部分使用者更新後:
+1. `next/Questions.json` 移成根目錄的 `Questions.json`。
+2. `manifest.json` 的 `version` 改成 13。
+3. 跑 `python3 tools/validate_bank.py Questions.json`,沒有錯誤再 commit + push。
+
+之後的勘誤一律改根目錄的 `Questions.json`(v13 格式)。新增題目時記得:每題 4 個選項、正解位置不要集中、
+新題不需要 `legacyOrder`;聽力題 `stem` 要包含 `listening.script`,題組小題 `stem` 要包含 `group.passage`(舊版相容)。
