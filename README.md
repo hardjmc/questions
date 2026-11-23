@@ -94,3 +94,27 @@ App 1.11 內建 v14(`bundledVersion = 14`)。App 1.10 內建的是 v13(仍含三
 
 之後的勘誤一律改根目錄的 `Questions.json`(v13/v14 格式),並繼續遞增版號。新增題目時記得:每題 4 個選項、正解位置不要集中、
 新題不需要 `legacyOrder`;聽力題 `stem` 要包含 `listening.script`,題組小題 `stem` 要包含 `group.passage`(舊版相容)。
+
+
+## 新題庫線(App 1.11 起):獨立圖檔+簽章 —— 2026-11
+
+App 1.11 起改讀 `manifest2.json`,舊版 App(≤1.10)繼續讀 `manifest.json` / 根目錄 `Questions.json`(之後只做勘誤)。
+
+| 檔案 | 內容 |
+|---|---|
+| `manifest2.json` | `{"payload": base64(JSON), "signature": base64(Ed25519)}`;payload 有版本、題庫檔的 SHA-256、每張圖的 SHA-256 |
+| `bank/Questions.json` | 題目;附圖寫成 `"image": {"name": "<題號>.png", "sha256": "…"}`,沒有 base64 |
+| `bank/images/*.png` | 一題一張圖(PNG,單張 ≤ 2 MB) |
+
+App 會驗證簽章 → 比對題庫雜湊 → 只下載手機上沒有的圖並逐張比對雜湊,全部通過才生效。
+**沒有私鑰就發不出 App 會接受的題庫**,所以就算 repo 或帳號被入侵,App 也不會吃進被改過的內容。
+
+### 金鑰
+- 私鑰只存在出題者 Mac 的鑰匙圈(service `hsexam-bank-signing`),**不要放進 repo**。
+- `python3 tools/bank_key.py pubkey` 印出公鑰;App 內建在 `Shared/BankImages.swift` 的 `BankSignature.publicKeyBase64`。
+- `python3 tools/bank_key.py backup <檔案>` 匯出私鑰做離線備份(存進密碼管理器後刪掉檔案)。私鑰遺失就只能換金鑰並發新版 App。
+
+### 發布步驟
+1. 改 `next/Questions.json`(可含 base64 `imageData`,工具會拆成圖檔),跑 `tools/validate_bank.py`。
+2. `python3 tools/publish_v2.py next/Questions.json <新版本號>`(版本號要大於上一版;發 App 時加 `--app <App 的 HSExamCountdown 資料夾>` 同步內建題庫與 BankImages,並把 App 的 `bundledVersion` 改成同一號)。
+3. commit `bank/`、`manifest2.json` 後 push。
