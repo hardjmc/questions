@@ -4,7 +4,7 @@ python3 tools/publish_v2.py <來源 Questions.json(可含 imageData)> <版本號
 
 產生(都在 repo 根目錄下):
   bank/Questions.json   題目;附圖改成 "image": {"name": "<題號>.png", "sha256": "…"}
-  bank/images/*.png     一題一張圖
+  bank/images/*.png     題幹圖 <題號>.png;圖片選項 <題號>_<0-3>.png(來源欄位 optionImagesData)
   manifest2.json        {"payload": base64(JSON), "signature": base64(Ed25519 簽名)}
 --app 會把同一份題庫與圖片複製進 App(內建題庫+BankImages 資料夾)。
 舊版 App 用的根目錄 Questions.json / manifest.json 不動。
@@ -30,16 +30,21 @@ def main():
     if os.path.isdir(img_dir): shutil.rmtree(img_dir)
     os.makedirs(img_dir)
     images = {}
-    for q in bank['questions']:
-        b64 = q.pop('imageData', None)
-        if not b64: continue
+    def put(name, b64, qid):
         data = base64.b64decode(b64)
-        assert data.startswith(PNG_MAGIC), f"{q['id']} 不是 PNG"
-        assert len(data) <= MAX_IMAGE, f"{q['id']} 圖太大"
-        name = f"{q['id']}.png"
+        assert data.startswith(PNG_MAGIC), f"{qid} 不是 PNG"
+        assert len(data) <= MAX_IMAGE, f"{qid} 圖太大"
         open(os.path.join(img_dir, name), 'wb').write(data)
-        q['image'] = {'name': name, 'sha256': sha(data)}
         images[name] = sha(data)
+        return {'name': name, 'sha256': sha(data)}
+    for q in bank['questions']:
+        q.pop('fig', None)
+        b64 = q.pop('imageData', None)
+        if b64: q['image'] = put(f"{q['id']}.png", b64, q['id'])
+        opts = q.pop('optionImagesData', None)   # 圖片選項:與 options 一一對應
+        if opts:
+            assert len(opts) == len(q['options']), f"{q['id']} 選項圖數量不符"
+            q['optionImages'] = [put(f"{q['id']}_{i}.png", o, q['id']) for i, o in enumerate(opts)]
     bank_bytes = json.dumps(bank, ensure_ascii=False, separators=(',', ':')).encode('utf-8')
     open(os.path.join(out_dir, 'Questions.json'), 'wb').write(bank_bytes)
     payload = {
